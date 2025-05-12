@@ -51,7 +51,7 @@
             // 
             // dataGridViewSelect
             // 
-            this.dataGridViewSelect.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dataGridViewSelect.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.dataGridViewSelect.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewSelect.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.dataGridViewSelect.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -63,6 +63,8 @@
             // selectLabel
             // 
             this.selectLabel.AutoSize = true;
+            this.selectLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.selectLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.selectLabel.Location = new System.Drawing.Point(292, 187);
             this.selectLabel.Name = "selectLabel";
             this.selectLabel.Size = new System.Drawing.Size(51, 13);
@@ -71,22 +73,25 @@
             // 
             // buttonSelect
             // 
+            this.buttonSelect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.buttonSelect.BackgroundImage = global::CourseWork.Properties.Resources.selectinform;
             this.buttonSelect.Location = new System.Drawing.Point(291, 138);
             this.buttonSelect.Name = "buttonSelect";
             this.buttonSelect.Size = new System.Drawing.Size(50, 50);
             this.buttonSelect.TabIndex = 3;
-            this.buttonSelect.UseVisualStyleBackColor = true;
+            this.buttonSelect.UseVisualStyleBackColor = false;
             this.buttonSelect.Click += new System.EventHandler(this.buttonSelect_Click);
             // 
             // SelectWallet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 204);
             this.Controls.Add(this.selectLabel);
             this.Controls.Add(this.buttonSelect);
             this.Controls.Add(this.tableLayoutPanelSelect);
+            this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.Name = "SelectWallet";
             this.Text = "SelectWallet";
             this.Load += new System.EventHandler(this.SelectWallet_Load);

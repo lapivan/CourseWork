@@ -38,7 +38,7 @@
             // 
             // dataGridViewDelete
             // 
-            this.dataGridViewDelete.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dataGridViewDelete.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.dataGridViewDelete.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewDelete.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.dataGridViewDelete.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -46,6 +46,7 @@
             this.dataGridViewDelete.Name = "dataGridViewDelete";
             this.dataGridViewDelete.Size = new System.Drawing.Size(260, 198);
             this.dataGridViewDelete.TabIndex = 0;
+            this.dataGridViewDelete.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDelete_CellContentClick);
             // 
             // tableLayoutPanel1
             // 
@@ -62,17 +63,20 @@
             // 
             // delete
             // 
+            this.delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.delete.BackgroundImage = global::CourseWork.Properties.Resources.remove;
+            this.delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.delete.Location = new System.Drawing.Point(292, 138);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(48, 48);
             this.delete.TabIndex = 2;
-            this.delete.UseVisualStyleBackColor = true;
+            this.delete.UseVisualStyleBackColor = false;
             this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.label1.Location = new System.Drawing.Point(292, 187);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
@@ -83,6 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 204);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.delete);

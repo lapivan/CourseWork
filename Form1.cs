@@ -49,12 +49,12 @@ namespace CourseWork
         public Form1()
         {
             InitializeComponent();
+            tabControl1.DrawItem += TabControl1_DrawItem;
         }
         ~Form1()
         {
             connectCourseDB.Close();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             connectCourseDB = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseWorkDB"].ConnectionString);
@@ -378,8 +378,10 @@ namespace CourseWork
             {
                 onBeginValue /= 1;
             }
-            textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
-            textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
+            //textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
+            //textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
+            textBoxCurrentBalance.Text = onBeginValue.ToString("N2");
+            textBoxCurrentMoney2.Text = onBeginValue.ToString("N2");
         }
 
         private void getMaxBalanceFromDB()
@@ -406,8 +408,10 @@ namespace CourseWork
                     {
                         onBeginValue /= 1;
                     }
-                    textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
-                    textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
+                    //textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
+                    //textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
+                    textBoxCurrentBalance.Text = onBeginValue.ToString("N2");
+                    textBoxCurrentMoney2.Text = onBeginValue.ToString("N2");
                 }
                 else
                 {
@@ -440,6 +444,7 @@ namespace CourseWork
                 dataGridView1.Columns["Name"].HeaderText = "Название";
                 dataGridView1.Columns["Description"].HeaderText = "Описание";
                 dataGridView1.Columns["Column1"].HeaderText = "Сумма";
+                dataGridView1.Columns["Column1"].DefaultCellStyle.Format = "N2";
             }
             else if(_activeEUR)
             {
@@ -450,6 +455,7 @@ namespace CourseWork
                 dataGridView1.Columns["Name"].HeaderText = "Название";
                 dataGridView1.Columns["Description"].HeaderText = "Описание";
                 dataGridView1.Columns["Column1"].HeaderText = "Сумма";
+                dataGridView1.Columns["Column1"].DefaultCellStyle.Format = "N2";
             }
             else
             {
@@ -460,10 +466,33 @@ namespace CourseWork
                 dataGridView1.Columns["Name"].HeaderText = "Название";
                 dataGridView1.Columns["Description"].HeaderText = "Описание";
                 dataGridView1.Columns["Value"].HeaderText = "Сумма";
+                dataGridView1.Columns["Value"].DefaultCellStyle.Format = "N2";
             }
             dataGridView1.ReadOnly = true;
             dataGridView1.AllowUserToOrderColumns = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.AllowUserToAddRows = false; 
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0x2E, 0x5B, 0xFF);
+            dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.Font, FontStyle.Bold);
+            dataGridView1.EnableHeadersVisualStyles = false;
+            dataGridView1.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+            dataGridView1.DefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridView1.DefaultCellStyle.BackColor = Color.White;
+            dataGridView1.DefaultCellStyle.SelectionForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridView1.DefaultCellStyle.SelectionBackColor = Color.FromArgb(0xE6, 0xF0, 0xFF);
+            dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(0xF5, 0xF9, 0xFF);
+            dataGridView1.AlternatingRowsDefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridView1.GridColor = Color.FromArgb(0xE2, 0xE8, 0xF0);
+            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridView1.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+
+            if (dataGridView1.Columns.Contains("Description"))
+            {
+                dataGridView1.Columns["Description"].DefaultCellStyle.ForeColor = Color.FromArgb(0x71, 0x80, 0x96);
+            }
         }
         private void setTableDreams()
         {
@@ -476,6 +505,7 @@ namespace CourseWork
                 dataGridViewDreams.Columns["Name"].HeaderText = "Название";
                 dataGridViewDreams.Columns["Description"].HeaderText = "Описание";
                 dataGridViewDreams.Columns["Column1"].HeaderText = "Сумма";
+                dataGridViewDreams.Columns["Column1"].DefaultCellStyle.Format = "N2";
             }
             else if (_activeEUR)
             {
@@ -486,6 +516,7 @@ namespace CourseWork
                 dataGridViewDreams.Columns["Name"].HeaderText = "Название";
                 dataGridViewDreams.Columns["Description"].HeaderText = "Описание";
                 dataGridViewDreams.Columns["Column1"].HeaderText = "Сумма";
+                dataGridViewDreams.Columns["Column1"].DefaultCellStyle.Format = "N2";
             }
             else
             {
@@ -496,10 +527,28 @@ namespace CourseWork
                 dataGridViewDreams.Columns["Name"].HeaderText = "Название";
                 dataGridViewDreams.Columns["Description"].HeaderText = "Описание";
                 dataGridViewDreams.Columns["Value"].HeaderText = "Сумма";
+                dataGridViewDreams.Columns["Value"].DefaultCellStyle.Format = "N2";
             }
             dataGridViewDreams.ReadOnly = true;
             dataGridViewDreams.AllowUserToOrderColumns = false;
+            dataGridViewDreams.AllowUserToAddRows = false;
             dataGridViewDreams.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewDreams.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0x2E, 0x5B, 0xFF);
+            dataGridViewDreams.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridViewDreams.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridViewDreams.Font, FontStyle.Bold);
+            dataGridViewDreams.EnableHeadersVisualStyles = false;
+            dataGridViewDreams.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+            dataGridViewDreams.DefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDreams.DefaultCellStyle.BackColor = Color.White;
+            dataGridViewDreams.DefaultCellStyle.SelectionForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDreams.DefaultCellStyle.SelectionBackColor = Color.FromArgb(0xE6, 0xF0, 0xFF);
+            dataGridViewDreams.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(0xF5, 0xF9, 0xFF);
+            dataGridViewDreams.AlternatingRowsDefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDreams.GridColor = Color.FromArgb(0xE2, 0xE8, 0xF0);
+            dataGridViewDreams.BorderStyle = BorderStyle.None;
+            dataGridViewDreams.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewDreams.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewDreams.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
         private void setSummaryValue()
         {
@@ -522,7 +571,8 @@ namespace CourseWork
                     {
                         onBeginValue /= 1;
                     }
-                    maskedTextBoxAllMoney.Text = Convert.ToString(onBeginValue);
+                    //maskedTextBoxAllMoney.Text = Convert.ToString(onBeginValue);
+                    maskedTextBoxAllMoney.Text = onBeginValue.ToString("N2");
                 }
                 else
                 {
@@ -830,7 +880,8 @@ namespace CourseWork
             needToReceive -= _summaryValue;
             if (needToReceive > 0)
             {
-                NeedToReceive.Text = Convert.ToString(needToReceive);
+                //NeedToReceive.Text = Convert.ToString(needToReceive);
+                NeedToReceive.Text = needToReceive.ToString("N2");
             }
             else
             {
@@ -842,8 +893,38 @@ namespace CourseWork
             setTableDreams();
             needToReceive();
         }
+        private void TabControl1_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            TabControl tc = (TabControl)sender;
+            TabPage tab = tc.TabPages[e.Index];
+            bool isSelected = (e.State & DrawItemState.Selected) == DrawItemState.Selected;
+            Color backColor = isSelected ? Color.FromArgb(0x2E, 0x5B, 0xFF) : Color.FromArgb(0xCB, 0xD5, 0xE0);
+            Color textColor = isSelected ? Color.White : Color.FromArgb(0x4A, 0x55, 0x68);
+            using (SolidBrush brush = new SolidBrush(backColor))
+            {
+                e.Graphics.FillRectangle(brush, e.Bounds);
+            }
+            TextRenderer.DrawText
+            (
+                e.Graphics,
+                tab.Text,
+                tab.Font,
+                new Rectangle(e.Bounds.X, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height),
+                textColor,
+                TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter
+            );
+            if (e.Index < tc.TabCount - 1)
+            {
+                using (Pen pen = new Pen(Color.FromArgb(0xE2, 0xE8, 0xF0)))
+                {
+                    e.Graphics.DrawLine(pen,
+                        e.Bounds.Right - 1, e.Bounds.Top + 5,
+                        e.Bounds.Right - 1, e.Bounds.Bottom - 5);
+                }
+            }
+        }
 
-        private void dataGridViewDreams_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void panelAddMoney_Paint(object sender, PaintEventArgs e)
         {
 
         }

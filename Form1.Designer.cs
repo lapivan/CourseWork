@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont4 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid1 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick1 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont5 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid2 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick2 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont6 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid3 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel1 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont129 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont130 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont131 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont132 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid49 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick49 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont133 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid50 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick50 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont134 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid51 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel17 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont135 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick51 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont136 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont137 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont138 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont139 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont140 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid52 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick52 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont141 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid53 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick53 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont142 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid54 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel18 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont143 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick54 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont144 = new Guna.Charts.WinForms.ChartFont();
             this.счетаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.категорииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.операцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,13 +92,13 @@
             this.usd = new System.Windows.Forms.Button();
             this.blr = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.labeladdBalance = new System.Windows.Forms.Label();
             this.panelAddMoney = new System.Windows.Forms.Panel();
             this.labeladdMoney = new System.Windows.Forms.Label();
             this.buttonAddMoney = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.updButton2 = new System.Windows.Forms.Button();
             this.Update = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelclothes = new System.Windows.Forms.Panel();
             this.labelclothe = new System.Windows.Forms.Label();
             this.buttonClothes = new System.Windows.Forms.Button();
@@ -123,9 +123,7 @@
             this.paneleat = new System.Windows.Forms.Panel();
             this.buttonEat = new System.Windows.Forms.Button();
             this.labeleat = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.labelMainText = new System.Windows.Forms.Label();
-            this.flowLayoutPanelMainText = new System.Windows.Forms.FlowLayoutPanel();
             this.labelCur2 = new System.Windows.Forms.Label();
             this.labelCurrency2 = new System.Windows.Forms.Label();
             this.labelCurrentMoney2 = new System.Windows.Forms.Label();
@@ -140,12 +138,16 @@
             this.DateDiapason = new System.Windows.Forms.Label();
             this.labeldateselect = new System.Windows.Forms.Label();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.gunaChart1 = new Guna.Charts.WinForms.GunaChart();
             this.buttonYear = new System.Windows.Forms.Button();
             this.buttonToday = new System.Windows.Forms.Button();
             this.buttonWeek = new System.Windows.Forms.Button();
             this.buttonMonth = new System.Windows.Forms.Button();
             this.createGraphic = new System.Windows.Forms.Button();
             this.Goal = new System.Windows.Forms.TabPage();
+            this.curGoals = new System.Windows.Forms.Label();
+            this.NeedToReceive = new System.Windows.Forms.TextBox();
+            this.NeedToReceiveLabel = new System.Windows.Forms.Label();
             this.buttonEURGoals = new System.Windows.Forms.Button();
             this.buttonDolGoals = new System.Windows.Forms.Button();
             this.buttonBYNGoals = new System.Windows.Forms.Button();
@@ -160,10 +162,6 @@
             this.panelAdd = new System.Windows.Forms.Panel();
             this.labelAdd = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
-            this.NeedToReceiveLabel = new System.Windows.Forms.Label();
-            this.NeedToReceive = new System.Windows.Forms.TextBox();
-            this.curGoals = new System.Windows.Forms.Label();
-            this.gunaChart1 = new Guna.Charts.WinForms.GunaChart();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panelUpdate.SuspendLayout();
@@ -248,9 +246,9 @@
             // 
             // textBoxCurrentBalance
             // 
-            this.textBoxCurrentBalance.BackColor = System.Drawing.Color.White;
+            this.textBoxCurrentBalance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.textBoxCurrentBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCurrentBalance.Location = new System.Drawing.Point(658, 82);
+            this.textBoxCurrentBalance.Location = new System.Drawing.Point(674, 82);
             this.textBoxCurrentBalance.Name = "textBoxCurrentBalance";
             this.textBoxCurrentBalance.Size = new System.Drawing.Size(123, 21);
             this.textBoxCurrentBalance.TabIndex = 1;
@@ -259,7 +257,8 @@
             // 
             this.currentBalanceTextLabel.AutoSize = true;
             this.currentBalanceTextLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentBalanceTextLabel.Location = new System.Drawing.Point(543, 86);
+            this.currentBalanceTextLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.currentBalanceTextLabel.Location = new System.Drawing.Point(559, 86);
             this.currentBalanceTextLabel.Name = "currentBalanceTextLabel";
             this.currentBalanceTextLabel.Size = new System.Drawing.Size(102, 15);
             this.currentBalanceTextLabel.TabIndex = 2;
@@ -268,9 +267,10 @@
             // currentVal
             // 
             this.currentVal.AutoSize = true;
-            this.currentVal.BackColor = System.Drawing.Color.White;
+            this.currentVal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.currentVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentVal.Location = new System.Drawing.Point(798, 51);
+            this.currentVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(150)))));
+            this.currentVal.Location = new System.Drawing.Point(814, 49);
             this.currentVal.Name = "currentVal";
             this.currentVal.Size = new System.Drawing.Size(41, 15);
             this.currentVal.TabIndex = 3;
@@ -298,7 +298,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
@@ -307,11 +307,11 @@
             // 
             // panelUpdate
             // 
-            this.panelUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelUpdate.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelUpdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelUpdate.Controls.Add(this.labelReset);
             this.panelUpdate.Controls.Add(this.refreshButton);
-            this.panelUpdate.Location = new System.Drawing.Point(551, 205);
+            this.panelUpdate.Location = new System.Drawing.Point(567, 205);
             this.panelUpdate.Name = "panelUpdate";
             this.panelUpdate.Size = new System.Drawing.Size(250, 50);
             this.panelUpdate.TabIndex = 7;
@@ -320,6 +320,7 @@
             // 
             this.labelReset.AutoSize = true;
             this.labelReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelReset.Location = new System.Drawing.Point(112, 17);
             this.labelReset.Name = "labelReset";
             this.labelReset.Size = new System.Drawing.Size(65, 15);
@@ -328,7 +329,7 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.refreshButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.refreshButton.BackgroundImage = global::CourseWork.Properties.Resources.upd;
             this.refreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.refreshButton.Font = new System.Drawing.Font("Segoe UI Variable Display", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -341,11 +342,11 @@
             // 
             // panelAddWallet1
             // 
-            this.panelAddWallet1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelAddWallet1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelAddWallet1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelAddWallet1.Controls.Add(this.AddLabel1);
             this.panelAddWallet1.Controls.Add(this.addWallet1);
-            this.panelAddWallet1.Location = new System.Drawing.Point(551, 134);
+            this.panelAddWallet1.Location = new System.Drawing.Point(567, 134);
             this.panelAddWallet1.Name = "panelAddWallet1";
             this.panelAddWallet1.Size = new System.Drawing.Size(250, 50);
             this.panelAddWallet1.TabIndex = 8;
@@ -354,6 +355,7 @@
             // 
             this.AddLabel1.AutoSize = true;
             this.AddLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.AddLabel1.Location = new System.Drawing.Point(60, 16);
             this.AddLabel1.Name = "AddLabel1";
             this.AddLabel1.Size = new System.Drawing.Size(182, 15);
@@ -362,24 +364,24 @@
             // 
             // addWallet1
             // 
-            this.addWallet1.BackColor = System.Drawing.Color.Snow;
+            this.addWallet1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.addWallet1.BackgroundImage = global::CourseWork.Properties.Resources.add_50;
             this.addWallet1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addWallet1.Font = new System.Drawing.Font("Segoe UI Variable Display", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addWallet1.Location = new System.Drawing.Point(-1, -1);
             this.addWallet1.Name = "addWallet1";
-            this.addWallet1.Size = new System.Drawing.Size(50, 50);
+            this.addWallet1.Size = new System.Drawing.Size(51, 50);
             this.addWallet1.TabIndex = 4;
-            this.addWallet1.Text = "+";
             this.addWallet1.UseVisualStyleBackColor = false;
             this.addWallet1.Click += new System.EventHandler(this.addWallet1_Click_1);
             // 
             // panelDelete
             // 
-            this.panelDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelDelete.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelDelete.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelDelete.Controls.Add(this.buttonDelete);
             this.panelDelete.Controls.Add(this.labelDelete);
-            this.panelDelete.Location = new System.Drawing.Point(551, 276);
+            this.panelDelete.Location = new System.Drawing.Point(567, 339);
             this.panelDelete.Name = "panelDelete";
             this.panelDelete.Size = new System.Drawing.Size(250, 50);
             this.panelDelete.TabIndex = 9;
@@ -401,6 +403,7 @@
             // 
             this.labelDelete.AutoSize = true;
             this.labelDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelDelete.Location = new System.Drawing.Point(112, 14);
             this.labelDelete.Name = "labelDelete";
             this.labelDelete.Size = new System.Drawing.Size(57, 15);
@@ -409,18 +412,18 @@
             // 
             // panelChoose
             // 
-            this.panelChoose.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelChoose.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelChoose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelChoose.Controls.Add(this.chooseButton);
             this.panelChoose.Controls.Add(this.selectWallet);
-            this.panelChoose.Location = new System.Drawing.Point(551, 347);
+            this.panelChoose.Location = new System.Drawing.Point(567, 273);
             this.panelChoose.Name = "panelChoose";
             this.panelChoose.Size = new System.Drawing.Size(250, 50);
             this.panelChoose.TabIndex = 10;
             // 
             // chooseButton
             // 
-            this.chooseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.chooseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.chooseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chooseButton.Image = global::CourseWork.Properties.Resources.choose1;
             this.chooseButton.Location = new System.Drawing.Point(-1, -1);
@@ -434,6 +437,7 @@
             // 
             this.selectWallet.AutoSize = true;
             this.selectWallet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectWallet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.selectWallet.Location = new System.Drawing.Point(78, 17);
             this.selectWallet.Name = "selectWallet";
             this.selectWallet.Size = new System.Drawing.Size(139, 15);
@@ -442,8 +446,9 @@
             // 
             // maskedTextBoxAllMoney
             // 
+            this.maskedTextBoxAllMoney.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.maskedTextBoxAllMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxAllMoney.Location = new System.Drawing.Point(658, 47);
+            this.maskedTextBoxAllMoney.Location = new System.Drawing.Point(674, 47);
             this.maskedTextBoxAllMoney.Name = "maskedTextBoxAllMoney";
             this.maskedTextBoxAllMoney.ReadOnly = true;
             this.maskedTextBoxAllMoney.Size = new System.Drawing.Size(123, 21);
@@ -453,7 +458,8 @@
             // 
             this.labelAllMoney.AutoSize = true;
             this.labelAllMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAllMoney.Location = new System.Drawing.Point(546, 50);
+            this.labelAllMoney.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelAllMoney.Location = new System.Drawing.Point(562, 50);
             this.labelAllMoney.Name = "labelAllMoney";
             this.labelAllMoney.Size = new System.Drawing.Size(93, 15);
             this.labelAllMoney.TabIndex = 12;
@@ -466,17 +472,18 @@
             this.tabControl1.Controls.Add(this.Stats);
             this.tabControl1.Controls.Add(this.Goal);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(857, 441);
+            this.tabControl1.Size = new System.Drawing.Size(894, 441);
             this.tabControl1.TabIndex = 13;
             this.tabControl1.Click += new System.EventHandler(this.tabControl1_Click);
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.PeachPuff;
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.tabPage1.Controls.Add(this.eyr);
             this.tabPage1.Controls.Add(this.usd);
             this.tabPage1.Controls.Add(this.blr);
@@ -494,15 +501,15 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(849, 413);
+            this.tabPage1.Size = new System.Drawing.Size(886, 413);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Счета";
             // 
             // eyr
             // 
-            this.eyr.BackColor = System.Drawing.Color.SandyBrown;
+            this.eyr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.eyr.Image = global::CourseWork.Properties.Resources.euro;
-            this.eyr.Location = new System.Drawing.Point(605, 3);
+            this.eyr.Location = new System.Drawing.Point(621, 3);
             this.eyr.Name = "eyr";
             this.eyr.Size = new System.Drawing.Size(32, 32);
             this.eyr.TabIndex = 15;
@@ -512,9 +519,9 @@
             // 
             // usd
             // 
-            this.usd.BackColor = System.Drawing.Color.SandyBrown;
+            this.usd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.usd.Image = global::CourseWork.Properties.Resources.usd;
-            this.usd.Location = new System.Drawing.Point(549, 3);
+            this.usd.Location = new System.Drawing.Point(565, 3);
             this.usd.Name = "usd";
             this.usd.Size = new System.Drawing.Size(32, 32);
             this.usd.TabIndex = 14;
@@ -524,9 +531,9 @@
             // 
             // blr
             // 
-            this.blr.BackColor = System.Drawing.Color.SandyBrown;
+            this.blr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.blr.Image = global::CourseWork.Properties.Resources.blr;
-            this.blr.Location = new System.Drawing.Point(658, 3);
+            this.blr.Location = new System.Drawing.Point(674, 3);
             this.blr.Name = "blr";
             this.blr.Size = new System.Drawing.Size(32, 32);
             this.blr.TabIndex = 13;
@@ -536,11 +543,11 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.PeachPuff;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabPage2.Controls.Add(this.labeladdBalance);
             this.tabPage2.Controls.Add(this.panelAddMoney);
             this.tabPage2.Controls.Add(this.panel1);
+            this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Controls.Add(this.panelclothes);
             this.tabPage2.Controls.Add(this.panelother);
             this.tabPage2.Controls.Add(this.panelfam);
@@ -549,9 +556,7 @@
             this.tabPage2.Controls.Add(this.panelrest);
             this.tabPage2.Controls.Add(this.panelshop);
             this.tabPage2.Controls.Add(this.paneleat);
-            this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Controls.Add(this.labelMainText);
-            this.tabPage2.Controls.Add(this.flowLayoutPanelMainText);
             this.tabPage2.Controls.Add(this.labelCur2);
             this.tabPage2.Controls.Add(this.labelCurrency2);
             this.tabPage2.Controls.Add(this.labelCurrentMoney2);
@@ -562,36 +567,29 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(849, 413);
+            this.tabPage2.Size = new System.Drawing.Size(886, 413);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Операции";
             // 
-            // labeladdBalance
-            // 
-            this.labeladdBalance.AutoSize = true;
-            this.labeladdBalance.BackColor = System.Drawing.Color.Aquamarine;
-            this.labeladdBalance.Location = new System.Drawing.Point(594, 194);
-            this.labeladdBalance.Name = "labeladdBalance";
-            this.labeladdBalance.Size = new System.Drawing.Size(196, 15);
-            this.labeladdBalance.TabIndex = 25;
-            this.labeladdBalance.Text = "Пополнение текущего счета";
-            // 
             // panelAddMoney
             // 
-            this.panelAddMoney.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.panelAddMoney.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelAddMoney.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelAddMoney.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelAddMoney.Controls.Add(this.labeladdMoney);
             this.panelAddMoney.Controls.Add(this.buttonAddMoney);
             this.panelAddMoney.ForeColor = System.Drawing.Color.Black;
-            this.panelAddMoney.Location = new System.Drawing.Point(575, 235);
+            this.panelAddMoney.Location = new System.Drawing.Point(654, 113);
             this.panelAddMoney.Name = "panelAddMoney";
-            this.panelAddMoney.Size = new System.Drawing.Size(240, 64);
+            this.panelAddMoney.Size = new System.Drawing.Size(197, 50);
             this.panelAddMoney.TabIndex = 24;
+            this.panelAddMoney.Paint += new System.Windows.Forms.PaintEventHandler(this.panelAddMoney_Paint);
             // 
             // labeladdMoney
             // 
             this.labeladdMoney.AutoSize = true;
-            this.labeladdMoney.Location = new System.Drawing.Point(54, 24);
+            this.labeladdMoney.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labeladdMoney.Location = new System.Drawing.Point(38, 15);
             this.labeladdMoney.Name = "labeladdMoney";
             this.labeladdMoney.Size = new System.Drawing.Size(81, 15);
             this.labeladdMoney.TabIndex = 27;
@@ -599,31 +597,31 @@
             // 
             // buttonAddMoney
             // 
-            this.buttonAddMoney.BackColor = System.Drawing.Color.LightGreen;
+            this.buttonAddMoney.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.buttonAddMoney.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAddMoney.Image = global::CourseWork.Properties.Resources.addWallet;
-            this.buttonAddMoney.Location = new System.Drawing.Point(172, -1);
+            this.buttonAddMoney.Location = new System.Drawing.Point(146, -1);
             this.buttonAddMoney.Name = "buttonAddMoney";
-            this.buttonAddMoney.Size = new System.Drawing.Size(66, 64);
+            this.buttonAddMoney.Size = new System.Drawing.Size(50, 50);
             this.buttonAddMoney.TabIndex = 13;
             this.buttonAddMoney.UseVisualStyleBackColor = false;
             this.buttonAddMoney.Click += new System.EventHandler(this.buttonAddMoney_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.updButton2);
             this.panel1.Controls.Add(this.Update);
             this.panel1.ForeColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(597, 57);
+            this.panel1.Location = new System.Drawing.Point(7, 9);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(197, 50);
             this.panel1.TabIndex = 23;
             // 
             // updButton2
             // 
-            this.updButton2.BackColor = System.Drawing.Color.Salmon;
+            this.updButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.updButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.updButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.updButton2.Image = global::CourseWork.Properties.Resources.upd;
@@ -637,20 +635,33 @@
             // Update
             // 
             this.Update.AutoSize = true;
-            this.Update.Location = new System.Drawing.Point(38, 15);
+            this.Update.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.Update.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.Update.Location = new System.Drawing.Point(40, 14);
             this.Update.Name = "Update";
             this.Update.Size = new System.Drawing.Size(73, 15);
             this.Update.TabIndex = 23;
             this.Update.Text = "Обновить";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.label1.Location = new System.Drawing.Point(278, 98);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Категории";
+            // 
             // panelclothes
             // 
-            this.panelclothes.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelclothes.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelclothes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelclothes.Controls.Add(this.labelclothe);
             this.panelclothes.Controls.Add(this.buttonClothes);
             this.panelclothes.ForeColor = System.Drawing.Color.Black;
-            this.panelclothes.Location = new System.Drawing.Point(228, 268);
+            this.panelclothes.Location = new System.Drawing.Point(350, 286);
             this.panelclothes.Name = "panelclothes";
             this.panelclothes.Size = new System.Drawing.Size(197, 50);
             this.panelclothes.TabIndex = 22;
@@ -658,6 +669,7 @@
             // labelclothe
             // 
             this.labelclothe.AutoSize = true;
+            this.labelclothe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelclothe.Location = new System.Drawing.Point(55, 15);
             this.labelclothe.Name = "labelclothe";
             this.labelclothe.Size = new System.Drawing.Size(59, 15);
@@ -666,7 +678,7 @@
             // 
             // buttonClothes
             // 
-            this.buttonClothes.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.buttonClothes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(178)))), ((int)(((byte)(172)))));
             this.buttonClothes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClothes.Image = global::CourseWork.Properties.Resources.clothes;
             this.buttonClothes.Location = new System.Drawing.Point(146, -1);
@@ -678,12 +690,12 @@
             // 
             // panelother
             // 
-            this.panelother.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelother.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelother.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelother.Controls.Add(this.labelother);
             this.panelother.Controls.Add(this.buttonOther);
             this.panelother.ForeColor = System.Drawing.Color.Black;
-            this.panelother.Location = new System.Drawing.Point(228, 336);
+            this.panelother.Location = new System.Drawing.Point(350, 354);
             this.panelother.Name = "panelother";
             this.panelother.Size = new System.Drawing.Size(197, 50);
             this.panelother.TabIndex = 22;
@@ -691,6 +703,7 @@
             // labelother
             // 
             this.labelother.AutoSize = true;
+            this.labelother.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelother.Location = new System.Drawing.Point(57, 14);
             this.labelother.Name = "labelother";
             this.labelother.Size = new System.Drawing.Size(53, 15);
@@ -699,7 +712,7 @@
             // 
             // buttonOther
             // 
-            this.buttonOther.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.buttonOther.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.buttonOther.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOther.Image = global::CourseWork.Properties.Resources.other;
             this.buttonOther.Location = new System.Drawing.Point(146, -1);
@@ -711,12 +724,12 @@
             // 
             // panelfam
             // 
-            this.panelfam.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelfam.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelfam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelfam.Controls.Add(this.labelfam);
             this.panelfam.Controls.Add(this.buttonFam);
             this.panelfam.ForeColor = System.Drawing.Color.Black;
-            this.panelfam.Location = new System.Drawing.Point(228, 201);
+            this.panelfam.Location = new System.Drawing.Point(350, 219);
             this.panelfam.Name = "panelfam";
             this.panelfam.Size = new System.Drawing.Size(197, 50);
             this.panelfam.TabIndex = 22;
@@ -724,6 +737,7 @@
             // labelfam
             // 
             this.labelfam.AutoSize = true;
+            this.labelfam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelfam.Location = new System.Drawing.Point(56, 16);
             this.labelfam.Name = "labelfam";
             this.labelfam.Size = new System.Drawing.Size(50, 15);
@@ -732,7 +746,7 @@
             // 
             // buttonFam
             // 
-            this.buttonFam.BackColor = System.Drawing.Color.Turquoise;
+            this.buttonFam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(137)))), ((int)(((byte)(61)))));
             this.buttonFam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFam.Image = global::CourseWork.Properties.Resources.family;
             this.buttonFam.Location = new System.Drawing.Point(146, -1);
@@ -744,12 +758,12 @@
             // 
             // panelhealth
             // 
-            this.panelhealth.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelhealth.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelhealth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelhealth.Controls.Add(this.labelhealth);
             this.panelhealth.Controls.Add(this.buttonHealth);
             this.panelhealth.ForeColor = System.Drawing.Color.Black;
-            this.panelhealth.Location = new System.Drawing.Point(228, 135);
+            this.panelhealth.Location = new System.Drawing.Point(350, 153);
             this.panelhealth.Name = "panelhealth";
             this.panelhealth.Size = new System.Drawing.Size(197, 50);
             this.panelhealth.TabIndex = 21;
@@ -757,6 +771,7 @@
             // labelhealth
             // 
             this.labelhealth.AutoSize = true;
+            this.labelhealth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelhealth.Location = new System.Drawing.Point(44, 15);
             this.labelhealth.Name = "labelhealth";
             this.labelhealth.Size = new System.Drawing.Size(72, 15);
@@ -765,7 +780,7 @@
             // 
             // buttonHealth
             // 
-            this.buttonHealth.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonHealth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
             this.buttonHealth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonHealth.Image = global::CourseWork.Properties.Resources.health;
             this.buttonHealth.Location = new System.Drawing.Point(146, 0);
@@ -777,12 +792,12 @@
             // 
             // paneltransp
             // 
-            this.paneltransp.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.paneltransp.BackColor = System.Drawing.Color.CornflowerBlue;
             this.paneltransp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.paneltransp.Controls.Add(this.labeltransp);
             this.paneltransp.Controls.Add(this.buttonTransp);
             this.paneltransp.ForeColor = System.Drawing.Color.Black;
-            this.paneltransp.Location = new System.Drawing.Point(8, 336);
+            this.paneltransp.Location = new System.Drawing.Point(90, 354);
             this.paneltransp.Name = "paneltransp";
             this.paneltransp.Size = new System.Drawing.Size(197, 50);
             this.paneltransp.TabIndex = 20;
@@ -790,6 +805,7 @@
             // labeltransp
             // 
             this.labeltransp.AutoSize = true;
+            this.labeltransp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labeltransp.Location = new System.Drawing.Point(81, 15);
             this.labeltransp.Name = "labeltransp";
             this.labeltransp.Size = new System.Drawing.Size(78, 15);
@@ -798,7 +814,7 @@
             // 
             // buttonTransp
             // 
-            this.buttonTransp.BackColor = System.Drawing.Color.Wheat;
+            this.buttonTransp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(178)))), ((int)(((byte)(172)))));
             this.buttonTransp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonTransp.Image = global::CourseWork.Properties.Resources.transport;
             this.buttonTransp.Location = new System.Drawing.Point(-1, -1);
@@ -810,12 +826,12 @@
             // 
             // panelrest
             // 
-            this.panelrest.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelrest.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelrest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelrest.Controls.Add(this.labelrest);
             this.panelrest.Controls.Add(this.buttonRest);
             this.panelrest.ForeColor = System.Drawing.Color.Black;
-            this.panelrest.Location = new System.Drawing.Point(7, 268);
+            this.panelrest.Location = new System.Drawing.Point(89, 286);
             this.panelrest.Name = "panelrest";
             this.panelrest.Size = new System.Drawing.Size(197, 50);
             this.panelrest.TabIndex = 20;
@@ -823,6 +839,7 @@
             // labelrest
             // 
             this.labelrest.AutoSize = true;
+            this.labelrest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelrest.Location = new System.Drawing.Point(95, 15);
             this.labelrest.Name = "labelrest";
             this.labelrest.Size = new System.Drawing.Size(50, 15);
@@ -831,7 +848,7 @@
             // 
             // buttonRest
             // 
-            this.buttonRest.BackColor = System.Drawing.Color.Linen;
+            this.buttonRest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(100)))), ((int)(((byte)(109)))));
             this.buttonRest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRest.Image = global::CourseWork.Properties.Resources.rest;
             this.buttonRest.Location = new System.Drawing.Point(-1, -1);
@@ -843,12 +860,12 @@
             // 
             // panelshop
             // 
-            this.panelshop.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelshop.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelshop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelshop.Controls.Add(this.labelshop);
             this.panelshop.Controls.Add(this.buttonShop);
             this.panelshop.ForeColor = System.Drawing.Color.Black;
-            this.panelshop.Location = new System.Drawing.Point(7, 201);
+            this.panelshop.Location = new System.Drawing.Point(89, 219);
             this.panelshop.Name = "panelshop";
             this.panelshop.Size = new System.Drawing.Size(197, 50);
             this.panelshop.TabIndex = 19;
@@ -856,6 +873,7 @@
             // labelshop
             // 
             this.labelshop.AutoSize = true;
+            this.labelshop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelshop.Location = new System.Drawing.Point(87, 16);
             this.labelshop.Name = "labelshop";
             this.labelshop.Size = new System.Drawing.Size(65, 15);
@@ -864,7 +882,7 @@
             // 
             // buttonShop
             // 
-            this.buttonShop.BackColor = System.Drawing.Color.Khaki;
+            this.buttonShop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(137)))), ((int)(((byte)(61)))));
             this.buttonShop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonShop.Image = global::CourseWork.Properties.Resources.shop;
             this.buttonShop.Location = new System.Drawing.Point(-1, -1);
@@ -876,19 +894,19 @@
             // 
             // paneleat
             // 
-            this.paneleat.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.paneleat.BackColor = System.Drawing.Color.CornflowerBlue;
             this.paneleat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.paneleat.Controls.Add(this.buttonEat);
             this.paneleat.Controls.Add(this.labeleat);
             this.paneleat.ForeColor = System.Drawing.Color.Black;
-            this.paneleat.Location = new System.Drawing.Point(7, 135);
+            this.paneleat.Location = new System.Drawing.Point(89, 153);
             this.paneleat.Name = "paneleat";
             this.paneleat.Size = new System.Drawing.Size(197, 50);
             this.paneleat.TabIndex = 18;
             // 
             // buttonEat
             // 
-            this.buttonEat.BackColor = System.Drawing.Color.Salmon;
+            this.buttonEat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
             this.buttonEat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonEat.Image = global::CourseWork.Properties.Resources.ea;
@@ -902,47 +920,31 @@
             // labeleat
             // 
             this.labeleat.AutoSize = true;
+            this.labeleat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labeleat.Location = new System.Drawing.Point(102, 15);
             this.labeleat.Name = "labeleat";
             this.labeleat.Size = new System.Drawing.Size(32, 15);
             this.labeleat.TabIndex = 23;
             this.labeleat.Text = "Еда";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.HotPink;
-            this.label1.Location = new System.Drawing.Point(177, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 15);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Категории";
-            // 
             // labelMainText
             // 
             this.labelMainText.AutoSize = true;
-            this.labelMainText.BackColor = System.Drawing.SystemColors.Info;
-            this.labelMainText.Location = new System.Drawing.Point(297, 16);
+            this.labelMainText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.labelMainText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelMainText.Location = new System.Drawing.Point(337, 9);
             this.labelMainText.Name = "labelMainText";
             this.labelMainText.Size = new System.Drawing.Size(187, 15);
             this.labelMainText.TabIndex = 0;
             this.labelMainText.Text = "Траты и пополнения счета";
             // 
-            // flowLayoutPanelMainText
-            // 
-            this.flowLayoutPanelMainText.BackColor = System.Drawing.SystemColors.Info;
-            this.flowLayoutPanelMainText.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.flowLayoutPanelMainText.Location = new System.Drawing.Point(288, 5);
-            this.flowLayoutPanelMainText.Name = "flowLayoutPanelMainText";
-            this.flowLayoutPanelMainText.Size = new System.Drawing.Size(207, 44);
-            this.flowLayoutPanelMainText.TabIndex = 7;
-            // 
             // labelCur2
             // 
             this.labelCur2.AutoSize = true;
-            this.labelCur2.BackColor = System.Drawing.Color.Linen;
+            this.labelCur2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.labelCur2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCur2.Location = new System.Drawing.Point(815, 7);
+            this.labelCur2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelCur2.Location = new System.Drawing.Point(851, 57);
             this.labelCur2.Name = "labelCur2";
             this.labelCur2.Size = new System.Drawing.Size(0, 15);
             this.labelCur2.TabIndex = 3;
@@ -952,7 +954,7 @@
             this.labelCurrency2.AutoSize = true;
             this.labelCurrency2.BackColor = System.Drawing.Color.Linen;
             this.labelCurrency2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCurrency2.Location = new System.Drawing.Point(809, 6);
+            this.labelCurrency2.Location = new System.Drawing.Point(840, 66);
             this.labelCurrency2.Name = "labelCurrency2";
             this.labelCurrency2.Size = new System.Drawing.Size(0, 15);
             this.labelCurrency2.TabIndex = 2;
@@ -961,7 +963,8 @@
             // 
             this.labelCurrentMoney2.AutoSize = true;
             this.labelCurrentMoney2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCurrentMoney2.Location = new System.Drawing.Point(578, 6);
+            this.labelCurrentMoney2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelCurrentMoney2.Location = new System.Drawing.Point(614, 55);
             this.labelCurrentMoney2.Name = "labelCurrentMoney2";
             this.labelCurrentMoney2.Size = new System.Drawing.Size(102, 15);
             this.labelCurrentMoney2.TabIndex = 1;
@@ -969,9 +972,10 @@
             // 
             // textBoxCurrentMoney2
             // 
-            this.textBoxCurrentMoney2.BackColor = System.Drawing.Color.Linen;
+            this.textBoxCurrentMoney2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.textBoxCurrentMoney2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCurrentMoney2.Location = new System.Drawing.Point(686, 3);
+            this.textBoxCurrentMoney2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.textBoxCurrentMoney2.Location = new System.Drawing.Point(722, 54);
             this.textBoxCurrentMoney2.Name = "textBoxCurrentMoney2";
             this.textBoxCurrentMoney2.ReadOnly = true;
             this.textBoxCurrentMoney2.Size = new System.Drawing.Size(123, 21);
@@ -979,9 +983,9 @@
             // 
             // buttonBYN2
             // 
-            this.buttonBYN2.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonBYN2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonBYN2.Image = global::CourseWork.Properties.Resources.blr;
-            this.buttonBYN2.Location = new System.Drawing.Point(118, 7);
+            this.buttonBYN2.Location = new System.Drawing.Point(813, 2);
             this.buttonBYN2.Name = "buttonBYN2";
             this.buttonBYN2.Size = new System.Drawing.Size(32, 32);
             this.buttonBYN2.TabIndex = 6;
@@ -990,9 +994,9 @@
             // 
             // buttonEuro2
             // 
-            this.buttonEuro2.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonEuro2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonEuro2.Image = global::CourseWork.Properties.Resources.euro;
-            this.buttonEuro2.Location = new System.Drawing.Point(61, 7);
+            this.buttonEuro2.Location = new System.Drawing.Point(756, 2);
             this.buttonEuro2.Name = "buttonEuro2";
             this.buttonEuro2.Size = new System.Drawing.Size(32, 32);
             this.buttonEuro2.TabIndex = 5;
@@ -1001,9 +1005,9 @@
             // 
             // buttonDollar2
             // 
-            this.buttonDollar2.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonDollar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonDollar2.Image = global::CourseWork.Properties.Resources.usd;
-            this.buttonDollar2.Location = new System.Drawing.Point(6, 7);
+            this.buttonDollar2.Location = new System.Drawing.Point(701, 2);
             this.buttonDollar2.Name = "buttonDollar2";
             this.buttonDollar2.Size = new System.Drawing.Size(32, 32);
             this.buttonDollar2.TabIndex = 4;
@@ -1012,7 +1016,7 @@
             // 
             // Stats
             // 
-            this.Stats.BackColor = System.Drawing.Color.PeachPuff;
+            this.Stats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.Stats.Controls.Add(this.labelAdds);
             this.Stats.Controls.Add(this.labeltreat);
             this.Stats.Controls.Add(this.gunaChartpl);
@@ -1028,13 +1032,14 @@
             this.Stats.Location = new System.Drawing.Point(4, 24);
             this.Stats.Name = "Stats";
             this.Stats.Padding = new System.Windows.Forms.Padding(3);
-            this.Stats.Size = new System.Drawing.Size(849, 413);
+            this.Stats.Size = new System.Drawing.Size(886, 413);
             this.Stats.TabIndex = 2;
             this.Stats.Text = "Статистика";
             // 
             // labelAdds
             // 
             this.labelAdds.AutoSize = true;
+            this.labelAdds.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelAdds.Location = new System.Drawing.Point(630, 367);
             this.labelAdds.Name = "labelAdds";
             this.labelAdds.Size = new System.Drawing.Size(89, 15);
@@ -1044,6 +1049,7 @@
             // labeltreat
             // 
             this.labeltreat.AutoSize = true;
+            this.labeltreat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labeltreat.Location = new System.Drawing.Point(209, 367);
             this.labeltreat.Name = "labeltreat";
             this.labeltreat.Size = new System.Drawing.Size(64, 15);
@@ -1052,38 +1058,38 @@
             // 
             // gunaChartpl
             // 
-            this.gunaChartpl.BackColor = System.Drawing.Color.PeachPuff;
-            chartFont1.FontName = "Arial";
-            this.gunaChartpl.Legend.LabelFont = chartFont1;
+            this.gunaChartpl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            chartFont129.FontName = "Arial";
+            this.gunaChartpl.Legend.LabelFont = chartFont129;
             this.gunaChartpl.Location = new System.Drawing.Point(551, 88);
             this.gunaChartpl.Name = "gunaChartpl";
             this.gunaChartpl.Size = new System.Drawing.Size(227, 260);
             this.gunaChartpl.TabIndex = 9;
-            chartFont2.FontName = "Arial";
-            chartFont2.Size = 12;
-            chartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChartpl.Title.Font = chartFont2;
-            chartFont3.FontName = "Arial";
-            this.gunaChartpl.Tooltips.BodyFont = chartFont3;
-            chartFont4.FontName = "Arial";
-            chartFont4.Size = 9;
-            chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChartpl.Tooltips.TitleFont = chartFont4;
-            this.gunaChartpl.XAxes.GridLines = grid1;
-            chartFont5.FontName = "Arial";
-            tick1.Font = chartFont5;
-            this.gunaChartpl.XAxes.Ticks = tick1;
-            this.gunaChartpl.YAxes.GridLines = grid2;
-            chartFont6.FontName = "Arial";
-            tick2.Font = chartFont6;
-            this.gunaChartpl.YAxes.Ticks = tick2;
-            this.gunaChartpl.ZAxes.GridLines = grid3;
-            chartFont7.FontName = "Arial";
-            pointLabel1.Font = chartFont7;
-            this.gunaChartpl.ZAxes.PointLabels = pointLabel1;
-            chartFont8.FontName = "Arial";
-            tick3.Font = chartFont8;
-            this.gunaChartpl.ZAxes.Ticks = tick3;
+            chartFont130.FontName = "Arial";
+            chartFont130.Size = 12;
+            chartFont130.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChartpl.Title.Font = chartFont130;
+            chartFont131.FontName = "Arial";
+            this.gunaChartpl.Tooltips.BodyFont = chartFont131;
+            chartFont132.FontName = "Arial";
+            chartFont132.Size = 9;
+            chartFont132.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChartpl.Tooltips.TitleFont = chartFont132;
+            this.gunaChartpl.XAxes.GridLines = grid49;
+            chartFont133.FontName = "Arial";
+            tick49.Font = chartFont133;
+            this.gunaChartpl.XAxes.Ticks = tick49;
+            this.gunaChartpl.YAxes.GridLines = grid50;
+            chartFont134.FontName = "Arial";
+            tick50.Font = chartFont134;
+            this.gunaChartpl.YAxes.Ticks = tick50;
+            this.gunaChartpl.ZAxes.GridLines = grid51;
+            chartFont135.FontName = "Arial";
+            pointLabel17.Font = chartFont135;
+            this.gunaChartpl.ZAxes.PointLabels = pointLabel17;
+            chartFont136.FontName = "Arial";
+            tick51.Font = chartFont136;
+            this.gunaChartpl.ZAxes.Ticks = tick51;
             // 
             // DateDiapason
             // 
@@ -1097,6 +1103,7 @@
             // labeldateselect
             // 
             this.labeldateselect.AutoSize = true;
+            this.labeldateselect.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labeldateselect.Location = new System.Drawing.Point(25, 12);
             this.labeldateselect.Name = "labeldateselect";
             this.labeldateselect.Size = new System.Drawing.Size(112, 15);
@@ -1106,13 +1113,50 @@
             // dateTimePicker
             // 
             this.dateTimePicker.CalendarForeColor = System.Drawing.SystemColors.Menu;
-            this.dateTimePicker.CalendarMonthBackground = System.Drawing.Color.FloralWhite;
+            this.dateTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.Menu;
             this.dateTimePicker.CalendarTitleBackColor = System.Drawing.Color.AntiqueWhite;
+            this.dateTimePicker.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.dateTimePicker.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.dateTimePicker.Location = new System.Drawing.Point(25, 34);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(248, 21);
             this.dateTimePicker.TabIndex = 2;
             this.dateTimePicker.ValueChanged += new System.EventHandler(this.dateTimePicker_ValueChanged);
+            // 
+            // gunaChart1
+            // 
+            this.gunaChart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            chartFont137.FontName = "Arial";
+            this.gunaChart1.Legend.LabelFont = chartFont137;
+            this.gunaChart1.Location = new System.Drawing.Point(28, 88);
+            this.gunaChart1.Name = "gunaChart1";
+            this.gunaChart1.Size = new System.Drawing.Size(388, 260);
+            this.gunaChart1.TabIndex = 0;
+            chartFont138.FontName = "Arial";
+            chartFont138.Size = 12;
+            chartFont138.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Title.Font = chartFont138;
+            chartFont139.FontName = "Arial";
+            this.gunaChart1.Tooltips.BodyFont = chartFont139;
+            chartFont140.FontName = "Arial";
+            chartFont140.Size = 9;
+            chartFont140.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Tooltips.TitleFont = chartFont140;
+            this.gunaChart1.XAxes.GridLines = grid52;
+            chartFont141.FontName = "Arial";
+            tick52.Font = chartFont141;
+            this.gunaChart1.XAxes.Ticks = tick52;
+            this.gunaChart1.YAxes.GridLines = grid53;
+            chartFont142.FontName = "Arial";
+            tick53.Font = chartFont142;
+            this.gunaChart1.YAxes.Ticks = tick53;
+            this.gunaChart1.ZAxes.GridLines = grid54;
+            chartFont143.FontName = "Arial";
+            pointLabel18.Font = chartFont143;
+            this.gunaChart1.ZAxes.PointLabels = pointLabel18;
+            chartFont144.FontName = "Arial";
+            tick54.Font = chartFont144;
+            this.gunaChart1.ZAxes.Ticks = tick54;
             // 
             // buttonYear
             // 
@@ -1156,17 +1200,20 @@
             // 
             // createGraphic
             // 
+            this.createGraphic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.createGraphic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.createGraphic.Image = global::CourseWork.Properties.Resources.all;
+            this.createGraphic.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.createGraphic.Location = new System.Drawing.Point(756, 12);
             this.createGraphic.Name = "createGraphic";
             this.createGraphic.Size = new System.Drawing.Size(42, 42);
             this.createGraphic.TabIndex = 1;
-            this.createGraphic.UseVisualStyleBackColor = true;
+            this.createGraphic.UseVisualStyleBackColor = false;
             this.createGraphic.Click += new System.EventHandler(this.createGraphic_Click);
             // 
             // Goal
             // 
-            this.Goal.BackColor = System.Drawing.Color.PeachPuff;
+            this.Goal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.Goal.Controls.Add(this.curGoals);
             this.Goal.Controls.Add(this.NeedToReceive);
             this.Goal.Controls.Add(this.NeedToReceiveLabel);
@@ -1180,15 +1227,46 @@
             this.Goal.Location = new System.Drawing.Point(4, 24);
             this.Goal.Name = "Goal";
             this.Goal.Padding = new System.Windows.Forms.Padding(3);
-            this.Goal.Size = new System.Drawing.Size(849, 413);
+            this.Goal.Size = new System.Drawing.Size(886, 413);
             this.Goal.TabIndex = 3;
             this.Goal.Text = "Цели";
             // 
+            // curGoals
+            // 
+            this.curGoals.AutoSize = true;
+            this.curGoals.BackColor = System.Drawing.Color.Linen;
+            this.curGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.curGoals.Location = new System.Drawing.Point(827, 79);
+            this.curGoals.Name = "curGoals";
+            this.curGoals.Size = new System.Drawing.Size(0, 15);
+            this.curGoals.TabIndex = 21;
+            // 
+            // NeedToReceive
+            // 
+            this.NeedToReceive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.NeedToReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NeedToReceive.Location = new System.Drawing.Point(686, 75);
+            this.NeedToReceive.Name = "NeedToReceive";
+            this.NeedToReceive.ReadOnly = true;
+            this.NeedToReceive.Size = new System.Drawing.Size(125, 21);
+            this.NeedToReceive.TabIndex = 20;
+            // 
+            // NeedToReceiveLabel
+            // 
+            this.NeedToReceiveLabel.AutoSize = true;
+            this.NeedToReceiveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NeedToReceiveLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(150)))));
+            this.NeedToReceiveLabel.Location = new System.Drawing.Point(558, 77);
+            this.NeedToReceiveLabel.Name = "NeedToReceiveLabel";
+            this.NeedToReceiveLabel.Size = new System.Drawing.Size(124, 15);
+            this.NeedToReceiveLabel.TabIndex = 19;
+            this.NeedToReceiveLabel.Text = "Осталось накопить:";
+            // 
             // buttonEURGoals
             // 
-            this.buttonEURGoals.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonEURGoals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonEURGoals.Image = global::CourseWork.Properties.Resources.euro;
-            this.buttonEURGoals.Location = new System.Drawing.Point(584, 20);
+            this.buttonEURGoals.Location = new System.Drawing.Point(611, 20);
             this.buttonEURGoals.Name = "buttonEURGoals";
             this.buttonEURGoals.Size = new System.Drawing.Size(32, 32);
             this.buttonEURGoals.TabIndex = 18;
@@ -1198,9 +1276,9 @@
             // 
             // buttonDolGoals
             // 
-            this.buttonDolGoals.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonDolGoals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonDolGoals.Image = global::CourseWork.Properties.Resources.usd;
-            this.buttonDolGoals.Location = new System.Drawing.Point(529, 20);
+            this.buttonDolGoals.Location = new System.Drawing.Point(556, 20);
             this.buttonDolGoals.Name = "buttonDolGoals";
             this.buttonDolGoals.Size = new System.Drawing.Size(32, 32);
             this.buttonDolGoals.TabIndex = 17;
@@ -1210,9 +1288,9 @@
             // 
             // buttonBYNGoals
             // 
-            this.buttonBYNGoals.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonBYNGoals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
             this.buttonBYNGoals.Image = global::CourseWork.Properties.Resources.blr;
-            this.buttonBYNGoals.Location = new System.Drawing.Point(638, 20);
+            this.buttonBYNGoals.Location = new System.Drawing.Point(665, 20);
             this.buttonBYNGoals.Name = "buttonBYNGoals";
             this.buttonBYNGoals.Size = new System.Drawing.Size(32, 32);
             this.buttonBYNGoals.TabIndex = 16;
@@ -1222,11 +1300,11 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Tan;
+            this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.labelDeleteGoal);
             this.panel3.Controls.Add(this.buttonDeleteGoal);
-            this.panel3.Location = new System.Drawing.Point(534, 305);
+            this.panel3.Location = new System.Drawing.Point(561, 305);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(250, 54);
             this.panel3.TabIndex = 5;
@@ -1234,7 +1312,8 @@
             // labelDeleteGoal
             // 
             this.labelDeleteGoal.AutoSize = true;
-            this.labelDeleteGoal.Location = new System.Drawing.Point(90, 17);
+            this.labelDeleteGoal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelDeleteGoal.Location = new System.Drawing.Point(101, 17);
             this.labelDeleteGoal.Name = "labelDeleteGoal";
             this.labelDeleteGoal.Size = new System.Drawing.Size(100, 15);
             this.labelDeleteGoal.TabIndex = 2;
@@ -1242,7 +1321,8 @@
             // 
             // buttonDeleteGoal
             // 
-            this.buttonDeleteGoal.BackColor = System.Drawing.Color.Red;
+            this.buttonDeleteGoal.BackColor = System.Drawing.Color.Firebrick;
+            this.buttonDeleteGoal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDeleteGoal.Image = global::CourseWork.Properties.Resources.free_icon_trash_can_bin_122808121;
             this.buttonDeleteGoal.Location = new System.Drawing.Point(-1, -1);
             this.buttonDeleteGoal.Name = "buttonDeleteGoal";
@@ -1253,11 +1333,11 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Tan;
+            this.panel2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.labelAddGoal);
             this.panel2.Controls.Add(this.buttonRefresh);
-            this.panel2.Location = new System.Drawing.Point(534, 216);
+            this.panel2.Location = new System.Drawing.Point(561, 216);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(250, 54);
             this.panel2.TabIndex = 4;
@@ -1265,7 +1345,8 @@
             // labelAddGoal
             // 
             this.labelAddGoal.AutoSize = true;
-            this.labelAddGoal.Location = new System.Drawing.Point(79, 19);
+            this.labelAddGoal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.labelAddGoal.Location = new System.Drawing.Point(84, 17);
             this.labelAddGoal.Name = "labelAddGoal";
             this.labelAddGoal.Size = new System.Drawing.Size(131, 15);
             this.labelAddGoal.TabIndex = 2;
@@ -1273,7 +1354,8 @@
             // 
             // buttonRefresh
             // 
-            this.buttonRefresh.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.buttonRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRefresh.Image = global::CourseWork.Properties.Resources.upd2;
             this.buttonRefresh.Location = new System.Drawing.Point(-1, -1);
             this.buttonRefresh.Name = "buttonRefresh";
@@ -1296,22 +1378,21 @@
             // 
             // dataGridViewDreams
             // 
-            this.dataGridViewDreams.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dataGridViewDreams.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.dataGridViewDreams.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewDreams.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewDreams.Location = new System.Drawing.Point(3, 3);
             this.dataGridViewDreams.Name = "dataGridViewDreams";
             this.dataGridViewDreams.Size = new System.Drawing.Size(444, 393);
             this.dataGridViewDreams.TabIndex = 0;
-            this.dataGridViewDreams.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDreams_CellContentClick);
             // 
             // panelAdd
             // 
-            this.panelAdd.BackColor = System.Drawing.Color.Tan;
+            this.panelAdd.BackColor = System.Drawing.Color.CornflowerBlue;
             this.panelAdd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelAdd.Controls.Add(this.labelAdd);
             this.panelAdd.Controls.Add(this.buttonAdd);
-            this.panelAdd.Location = new System.Drawing.Point(534, 122);
+            this.panelAdd.Location = new System.Drawing.Point(561, 122);
             this.panelAdd.Name = "panelAdd";
             this.panelAdd.Size = new System.Drawing.Size(250, 54);
             this.panelAdd.TabIndex = 0;
@@ -1319,6 +1400,8 @@
             // labelAdd
             // 
             this.labelAdd.AutoSize = true;
+            this.labelAdd.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.labelAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelAdd.Location = new System.Drawing.Point(90, 17);
             this.labelAdd.Name = "labelAdd";
             this.labelAdd.Size = new System.Drawing.Size(109, 15);
@@ -1327,85 +1410,22 @@
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAdd.Image = global::CourseWork.Properties.Resources.add_50;
             this.buttonAdd.Location = new System.Drawing.Point(-1, -1);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(54, 54);
             this.buttonAdd.TabIndex = 1;
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // NeedToReceiveLabel
-            // 
-            this.NeedToReceiveLabel.AutoSize = true;
-            this.NeedToReceiveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NeedToReceiveLabel.Location = new System.Drawing.Point(531, 77);
-            this.NeedToReceiveLabel.Name = "NeedToReceiveLabel";
-            this.NeedToReceiveLabel.Size = new System.Drawing.Size(124, 15);
-            this.NeedToReceiveLabel.TabIndex = 19;
-            this.NeedToReceiveLabel.Text = "Осталось накопить:";
-            // 
-            // NeedToReceive
-            // 
-            this.NeedToReceive.BackColor = System.Drawing.Color.Linen;
-            this.NeedToReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NeedToReceive.Location = new System.Drawing.Point(659, 75);
-            this.NeedToReceive.Name = "NeedToReceive";
-            this.NeedToReceive.ReadOnly = true;
-            this.NeedToReceive.Size = new System.Drawing.Size(125, 21);
-            this.NeedToReceive.TabIndex = 20;
-            // 
-            // curGoals
-            // 
-            this.curGoals.AutoSize = true;
-            this.curGoals.BackColor = System.Drawing.Color.Linen;
-            this.curGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.curGoals.Location = new System.Drawing.Point(800, 79);
-            this.curGoals.Name = "curGoals";
-            this.curGoals.Size = new System.Drawing.Size(0, 15);
-            this.curGoals.TabIndex = 21;
-            // 
-            // gunaChart1
-            // 
-            this.gunaChart1.BackColor = System.Drawing.Color.PeachPuff;
-            chartFont9.FontName = "Arial";
-            this.gunaChart1.Legend.LabelFont = chartFont9;
-            this.gunaChart1.Location = new System.Drawing.Point(25, 88);
-            this.gunaChart1.Name = "gunaChart1";
-            this.gunaChart1.Size = new System.Drawing.Size(419, 260);
-            this.gunaChart1.TabIndex = 0;
-            chartFont10.FontName = "Arial";
-            chartFont10.Size = 12;
-            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Title.Font = chartFont10;
-            chartFont11.FontName = "Arial";
-            this.gunaChart1.Tooltips.BodyFont = chartFont11;
-            chartFont12.FontName = "Arial";
-            chartFont12.Size = 9;
-            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Tooltips.TitleFont = chartFont12;
-            this.gunaChart1.XAxes.GridLines = grid4;
-            chartFont13.FontName = "Arial";
-            tick4.Font = chartFont13;
-            this.gunaChart1.XAxes.Ticks = tick4;
-            this.gunaChart1.YAxes.GridLines = grid5;
-            chartFont14.FontName = "Arial";
-            tick5.Font = chartFont14;
-            this.gunaChart1.YAxes.Ticks = tick5;
-            this.gunaChart1.ZAxes.GridLines = grid6;
-            chartFont15.FontName = "Arial";
-            pointLabel2.Font = chartFont15;
-            this.gunaChart1.ZAxes.PointLabels = pointLabel2;
-            chartFont16.FontName = "Arial";
-            tick6.Font = chartFont16;
-            this.gunaChart1.ZAxes.Ticks = tick6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(857, 441);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(249)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(894, 441);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -1506,7 +1526,6 @@
         private System.Windows.Forms.Button buttonEuro2;
         private System.Windows.Forms.Button buttonDollar2;
         private System.Windows.Forms.Label labelMainText;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelMainText;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonOther;
         private System.Windows.Forms.Button buttonClothes;
@@ -1535,7 +1554,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button updButton2;
         private System.Windows.Forms.Label Update;
-        private System.Windows.Forms.Label labeladdBalance;
         private System.Windows.Forms.Panel panelAddMoney;
         private System.Windows.Forms.Label labeladdMoney;
         private System.Windows.Forms.Button buttonAddMoney;

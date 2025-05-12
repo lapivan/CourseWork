@@ -39,6 +39,7 @@
             // labelCurrency
             // 
             this.labelCurrency.AutoSize = true;
+            this.labelCurrency.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelCurrency.Location = new System.Drawing.Point(220, 9);
             this.labelCurrency.Name = "labelCurrency";
             this.labelCurrency.Size = new System.Drawing.Size(48, 13);
@@ -48,6 +49,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(150)))));
             this.label1.Location = new System.Drawing.Point(274, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
@@ -57,6 +59,7 @@
             // 
             this.labelSum.AutoSize = true;
             this.labelSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelSum.Location = new System.Drawing.Point(70, 74);
             this.labelSum.Name = "labelSum";
             this.labelSum.Size = new System.Drawing.Size(53, 16);
@@ -65,6 +68,7 @@
             // 
             // textBoxSum
             // 
+            this.textBoxSum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.textBoxSum.Location = new System.Drawing.Point(168, 70);
             this.textBoxSum.Name = "textBoxSum";
             this.textBoxSum.Size = new System.Drawing.Size(106, 20);
@@ -73,6 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.label2.Location = new System.Drawing.Point(214, 184);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
@@ -81,7 +86,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SpringGreen;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = global::CourseWork.Properties.Resources.addWallet;
             this.button1.Location = new System.Drawing.Point(210, 117);
@@ -95,6 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(317, 204);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);

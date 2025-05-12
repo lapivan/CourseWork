@@ -40,6 +40,7 @@
             // 
             // textDescr
             // 
+            this.textDescr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.textDescr.Location = new System.Drawing.Point(170, 37);
             this.textDescr.Name = "textDescr";
             this.textDescr.Size = new System.Drawing.Size(100, 20);
@@ -47,6 +48,7 @@
             // 
             // textSum
             // 
+            this.textSum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.textSum.Location = new System.Drawing.Point(170, 87);
             this.textSum.Name = "textSum";
             this.textSum.Size = new System.Drawing.Size(100, 20);
@@ -55,6 +57,7 @@
             // labelDescrip
             // 
             this.labelDescrip.AutoSize = true;
+            this.labelDescrip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelDescrip.Location = new System.Drawing.Point(63, 42);
             this.labelDescrip.Name = "labelDescrip";
             this.labelDescrip.Size = new System.Drawing.Size(60, 13);
@@ -64,6 +67,7 @@
             // labelsum
             // 
             this.labelsum.AutoSize = true;
+            this.labelsum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelsum.Location = new System.Drawing.Point(79, 92);
             this.labelsum.Name = "labelsum";
             this.labelsum.Size = new System.Drawing.Size(44, 13);
@@ -73,6 +77,7 @@
             // labelconst
             // 
             this.labelconst.AutoSize = true;
+            this.labelconst.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.labelconst.Location = new System.Drawing.Point(217, 182);
             this.labelconst.Name = "labelconst";
             this.labelconst.Size = new System.Drawing.Size(60, 13);
@@ -82,6 +87,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.label1.Location = new System.Drawing.Point(222, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
@@ -91,6 +97,7 @@
             // labelCurrency
             // 
             this.labelCurrency.AutoSize = true;
+            this.labelCurrency.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(150)))));
             this.labelCurrency.Location = new System.Drawing.Point(276, 9);
             this.labelCurrency.Name = "labelCurrency";
             this.labelCurrency.Size = new System.Drawing.Size(0, 13);
@@ -98,19 +105,21 @@
             // 
             // buttonspend
             // 
+            this.buttonspend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.buttonspend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonspend.Image = global::CourseWork.Properties.Resources.spend;
             this.buttonspend.Location = new System.Drawing.Point(220, 125);
             this.buttonspend.Name = "buttonspend";
             this.buttonspend.Size = new System.Drawing.Size(50, 50);
             this.buttonspend.TabIndex = 4;
-            this.buttonspend.UseVisualStyleBackColor = true;
+            this.buttonspend.UseVisualStyleBackColor = false;
             this.buttonspend.Click += new System.EventHandler(this.buttonspend_Click);
             // 
             // SpendMoney
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(317, 204);
             this.Controls.Add(this.labelCurrency);
             this.Controls.Add(this.label1);

@@ -44,7 +44,24 @@ namespace CourseWork
 
             dataGridViewSelect.ReadOnly = false;
             dataGridViewSelect.AllowUserToOrderColumns = false;
+            dataGridViewSelect.AllowUserToAddRows = false;
             dataGridViewSelect.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewSelect.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0x2E, 0x5B, 0xFF);
+            dataGridViewSelect.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridViewSelect.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridViewSelect.Font, FontStyle.Bold);
+            dataGridViewSelect.EnableHeadersVisualStyles = false;
+            dataGridViewSelect.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+            dataGridViewSelect.DefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewSelect.DefaultCellStyle.BackColor = Color.White;
+            dataGridViewSelect.DefaultCellStyle.SelectionForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewSelect.DefaultCellStyle.SelectionBackColor = Color.FromArgb(0xE6, 0xF0, 0xFF);
+            dataGridViewSelect.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(0xF5, 0xF9, 0xFF);
+            dataGridViewSelect.AlternatingRowsDefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewSelect.GridColor = Color.FromArgb(0xE2, 0xE8, 0xF0);
+            dataGridViewSelect.BorderStyle = BorderStyle.None;
+            dataGridViewSelect.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewSelect.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewSelect.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
 
             dataGridViewSelect.Columns["Name"].ReadOnly = true;
         }

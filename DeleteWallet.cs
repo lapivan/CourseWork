@@ -36,7 +36,24 @@ namespace CourseWork
 
             dataGridViewDelete.ReadOnly = false;
             dataGridViewDelete.AllowUserToOrderColumns = false;
+            dataGridViewDelete.AllowUserToAddRows = false;
             dataGridViewDelete.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewDelete.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0x2E, 0x5B, 0xFF);
+            dataGridViewDelete.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridViewDelete.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridViewDelete.Font, FontStyle.Bold);
+            dataGridViewDelete.EnableHeadersVisualStyles = false;
+            dataGridViewDelete.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+            dataGridViewDelete.DefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDelete.DefaultCellStyle.BackColor = Color.White;
+            dataGridViewDelete.DefaultCellStyle.SelectionForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDelete.DefaultCellStyle.SelectionBackColor = Color.FromArgb(0xE6, 0xF0, 0xFF);
+            dataGridViewDelete.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(0xF5, 0xF9, 0xFF);
+            dataGridViewDelete.AlternatingRowsDefaultCellStyle.ForeColor = Color.FromArgb(0x2D, 0x37, 0x48);
+            dataGridViewDelete.GridColor = Color.FromArgb(0xE2, 0xE8, 0xF0);
+            dataGridViewDelete.BorderStyle = BorderStyle.None;
+            dataGridViewDelete.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dataGridViewDelete.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewDelete.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
 
             dataGridViewDelete.Columns["Name"].ReadOnly = true;
         }
@@ -76,6 +93,11 @@ namespace CourseWork
                 }
             }
             setTable();
+        }
+
+        private void dataGridViewDelete_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

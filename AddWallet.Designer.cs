@@ -46,6 +46,7 @@
             // 
             this.WalletName.AutoSize = true;
             this.WalletName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WalletName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.WalletName.Location = new System.Drawing.Point(41, 30);
             this.WalletName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WalletName.Name = "WalletName";
@@ -56,6 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.label2.Location = new System.Drawing.Point(41, 63);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -65,6 +67,7 @@
             // 
             // WallName
             // 
+            this.WallName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.WallName.Location = new System.Drawing.Point(201, 27);
             this.WallName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.WallName.Name = "WallName";
@@ -74,6 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.label1.Location = new System.Drawing.Point(41, 99);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -83,6 +87,7 @@
             // 
             // WallBegSum
             // 
+            this.WallBegSum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.WallBegSum.Location = new System.Drawing.Point(201, 96);
             this.WallBegSum.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.WallBegSum.Name = "WallBegSum";
@@ -91,6 +96,7 @@
             // 
             // WallDescr
             // 
+            this.WallDescr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.WallDescr.Location = new System.Drawing.Point(201, 61);
             this.WallDescr.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.WallDescr.Name = "WallDescr";
@@ -99,17 +105,20 @@
             // 
             // AddWall
             // 
+            this.AddWall.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.AddWall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddWall.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.AddWall.Location = new System.Drawing.Point(125, 158);
             this.AddWall.Name = "AddWall";
             this.AddWall.Size = new System.Drawing.Size(102, 23);
             this.AddWall.TabIndex = 6;
             this.AddWall.Text = "Добавить счет";
-            this.AddWall.UseVisualStyleBackColor = true;
+            this.AddWall.UseVisualStyleBackColor = false;
             this.AddWall.Click += new System.EventHandler(this.AddWall_Click);
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
             this.toolStripButton2,
@@ -156,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 204);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.AddWall);
