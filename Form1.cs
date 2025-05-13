@@ -72,6 +72,15 @@ namespace CourseWork
                         passwordForm.Size = new Size(350, 200);
                         passwordForm.BackColor = Color.FromArgb(230, 240, 255);
                         passwordForm.Font = new Font("Segoe UI", 10);
+
+                        passwordForm.FormClosing += (s, e) =>
+                        {
+                            if (!passwordCorrect && passwordForm.DialogResult != DialogResult.OK)
+                            {
+                                Application.Exit();
+                            }
+                        };
+
                         var label = new Label
                         {
                             Text = "Введите пароль для доступа:",
