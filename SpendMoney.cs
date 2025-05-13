@@ -99,7 +99,7 @@ namespace CourseWork
                         MessageBox.Show($"Непредвиденная ошибка", "Ошибка",
                            MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                    Form1.CurrentWalletValue-=begSumm;
+                    Form1.CurrentWalletValue -=begSumm;
                     SqlCommand commandWallets = new SqlCommand("UPDATE [Wallets] SET Value = Value - @Amount WHERE Name = @WalletName",connectCourseDB);
                     commandWallets.Parameters.AddWithValue("@Amount", begSumm);
                     commandWallets.Parameters.AddWithValue("@WalletName", Form1.CurrentWalletName);

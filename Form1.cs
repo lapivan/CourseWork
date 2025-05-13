@@ -46,10 +46,104 @@ namespace CourseWork
         private static string _currentWalletName;
         private static bool _currentWalletDeleted = false;
 
+        private string _password;
         public Form1()
         {
             InitializeComponent();
             tabControl1.DrawItem += TabControl1_DrawItem;
+            connectCourseDB = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseWorkDB"].ConnectionString);
+            connectCourseDB.Open();
+            checkPassword();
+            if (!string.IsNullOrEmpty(_password))
+            {
+                bool passwordCorrect = false;
+                int attempts = 0;
+                const int maxAttempts = 3;
+
+                while (!passwordCorrect && attempts < maxAttempts)
+                {
+                    using (var passwordForm = new Form())
+                    {
+                        passwordForm.Text = "Требуется авторизация";
+                        passwordForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                        passwordForm.StartPosition = FormStartPosition.CenterScreen;
+                        passwordForm.MaximizeBox = false;
+                        passwordForm.MinimizeBox = false;
+                        passwordForm.Size = new Size(350, 200);
+                        passwordForm.BackColor = Color.FromArgb(230, 240, 255);
+                        passwordForm.Font = new Font("Segoe UI", 10);
+                        var label = new Label
+                        {
+                            Text = "Введите пароль для доступа:",
+                            Location = new Point(20, 20),
+                            AutoSize = true,
+                            ForeColor = Color.FromArgb(50, 50, 50)
+                        };
+
+                        var textBox = new TextBox
+                        {
+                            PasswordChar = '•',
+                            Location = new Point(20, 50),
+                            Size = new Size(290, 25),
+                            BorderStyle = BorderStyle.FixedSingle,
+                            BackColor = Color.White
+                        };
+
+                        var button = new Button
+                        {
+                            Text = "Подтвердить",
+                            Location = new Point(120, 100),
+                            Size = new Size(100, 35),
+                            BackColor = Color.FromArgb(0, 120, 215),
+                            ForeColor = Color.White,
+                            FlatStyle = FlatStyle.Flat,
+                            Cursor = Cursors.Hand
+                        };
+                        button.FlatAppearance.BorderSize = 0;
+                        button.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 100, 200);
+                        button.Click += (sender, e) =>
+                        {
+                            if (textBox.Text == _password)
+                            {
+                                passwordCorrect = true;
+                                passwordForm.DialogResult = DialogResult.OK;
+                            }
+                            else
+                            {
+                                attempts++;
+                                if (attempts >= maxAttempts)
+                                {
+                                    MessageBox.Show("Превышено максимальное количество попыток. Приложение будет закрыто.",
+                                                  "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    passwordForm.DialogResult = DialogResult.Cancel;
+                                }
+                                else
+                                {
+                                    MessageBox.Show($"Неверный пароль! Осталось попыток: {maxAttempts - attempts}",
+                                                   "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    textBox.Text = "";
+                                    textBox.Focus();
+                                }
+                            }
+                        };
+
+                        passwordForm.Controls.Add(label);
+                        passwordForm.Controls.Add(textBox);
+                        passwordForm.Controls.Add(button);
+                        passwordForm.AcceptButton = button;
+                        if (passwordForm.ShowDialog() != DialogResult.OK)
+                        {
+                            Application.Exit();
+                            return;
+                        }
+                    }
+                }
+
+                if (!passwordCorrect)
+                {
+                    Application.Exit();
+                }
+            }
         }
         ~Form1()
         {
@@ -57,8 +151,6 @@ namespace CourseWork
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            connectCourseDB = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseWorkDB"].ConnectionString);
-            connectCourseDB.Open();
             _dollar.Value = SetCurrentDollar();
             _euro.Value = SetCurrentEuro();
             textBoxCurrentBalance.ReadOnly = true;
@@ -74,6 +166,7 @@ namespace CourseWork
             createGraphic_SUMPL();
             createGraphic_SUM();
             needToReceive();
+            SetupAboutTab();
         }
 
         private void addWallet1_Click_1(object sender, EventArgs e)
@@ -378,8 +471,6 @@ namespace CourseWork
             {
                 onBeginValue /= 1;
             }
-            //textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
-            //textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
             textBoxCurrentBalance.Text = onBeginValue.ToString("N2");
             textBoxCurrentMoney2.Text = onBeginValue.ToString("N2");
         }
@@ -880,7 +971,6 @@ namespace CourseWork
             needToReceive -= _summaryValue;
             if (needToReceive > 0)
             {
-                //NeedToReceive.Text = Convert.ToString(needToReceive);
                 NeedToReceive.Text = needToReceive.ToString("N2");
             }
             else
@@ -927,6 +1017,193 @@ namespace CourseWork
         private void panelAddMoney_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+        private void SetupAboutTab()
+        {
+            WebBrowser browser = new WebBrowser
+            {
+                Dock = DockStyle.Fill,
+                ScrollBarsEnabled = false
+            };
+
+            tabPage3.Controls.Add(browser);
+
+            string htmlContent = @"
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+        <style>
+            body {
+                font-family: 'Segoe UI', Arial;
+                padding: 20px;
+                color: #333;
+                line-height: 1.6;
+            }
+            h1 {
+                color: #0056b3;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .version {
+                text-align: center;
+                color: #666;
+                margin-bottom: 20px;
+            }
+            ul {
+                padding-left: 20px;
+            }
+            li {
+                margin-bottom: 8px;
+            }
+            .footer {
+                margin-top: 30px;
+                text-align: center;
+                font-size: 12px;
+                color: #888;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Финансовый менеджер</h1>
+        <div class='version'>Версия 1.0.0</div>
+        
+        <p>Приложение для управления личными финансами:</p>
+        
+        <ul>
+            <li>Учет доходов и расходов</li>
+            <li>Анализ финансовых операций</li>
+            <li>Ведение нескольких счетов</li>
+            <li>Создание резервных копий</li>
+        </ul>
+        
+        <div class='footer'>
+            <p>© 2025 Все права защищены</p>
+            <p>Курсовой проект</p>
+        </div>
+    </body>
+    </html>";
+
+            browser.DocumentText = htmlContent;
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void checkPassword()
+        {
+            using (SqlCommand command = new SqlCommand("SELECT TOP 1 password FROM Pass", connectCourseDB))
+            {
+                object result = command.ExecuteScalar();
+                if (result != null && result != DBNull.Value)
+                {
+                    _password = Convert.ToString(result);
+                }
+                else
+                {
+                    _password = "";
+                }
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            using (var passwordForm = new Form())
+            {
+                passwordForm.Text = "Новый пароль";
+                passwordForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                passwordForm.StartPosition = FormStartPosition.CenterScreen;
+                passwordForm.MaximizeBox = false;
+                passwordForm.MinimizeBox = false;
+                passwordForm.Size = new Size(350, 200);
+                passwordForm.BackColor = Color.FromArgb(230, 240, 255);
+                passwordForm.Font = new Font("Segoe UI", 10);
+                var label = new Label
+                {
+                    Text = "Введите новый пароль:",
+                    Location = new Point(20, 20),
+                    AutoSize = true,
+                    ForeColor = Color.FromArgb(50, 50, 50)
+                };
+
+                var textBox = new TextBox
+                {
+                    PasswordChar = '•',
+                    Location = new Point(20, 50),
+                    Size = new Size(290, 25),
+                    BorderStyle = BorderStyle.FixedSingle,
+                    BackColor = Color.White
+                };
+
+                var button = new Button
+                {
+                    Text = "Подтвердить",
+                    Location = new Point(120, 100),
+                    Size = new Size(100, 35),
+                    BackColor = Color.FromArgb(0, 120, 215),
+                    ForeColor = Color.White,
+                    FlatStyle = FlatStyle.Flat,
+                    Cursor = Cursors.Hand,
+                    DialogResult = DialogResult.OK
+                };
+
+                button.FlatAppearance.BorderSize = 0;
+                button.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 100, 200);
+
+                passwordForm.Controls.Add(label);
+                passwordForm.Controls.Add(textBox);
+                passwordForm.Controls.Add(button);
+                passwordForm.AcceptButton = button;
+                if (passwordForm.ShowDialog() == DialogResult.OK)
+                {
+                    if (!string.IsNullOrEmpty(textBox.Text))
+                    {
+                        try
+                        {
+                            using (SqlCommand rm = new SqlCommand("TRUNCATE TABLE [Pass]", connectCourseDB))
+                            {
+                                rm.ExecuteNonQuery();
+                            }
+
+                            using (SqlCommand command = new SqlCommand("INSERT INTO [Pass] (password) VALUES (@P)", connectCourseDB))
+                            {
+                                command.Parameters.AddWithValue("@P", textBox.Text);
+                                int rowsAffected = command.ExecuteNonQuery();
+
+                                if (rowsAffected > 0)
+                                {
+                                    MessageBox.Show("Пароль успешно изменен!", "Успех",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Не удалось изменить пароль", "Ошибка",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Ошибка при изменении пароля: {ex.Message}", "Ошибка",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Пароль не может быть пустым!", "Ошибка",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            using (SqlCommand rm = new SqlCommand("TRUNCATE TABLE [Pass]", connectCourseDB))
+            {
+                rm.ExecuteNonQuery();
+            }
         }
     }
 }

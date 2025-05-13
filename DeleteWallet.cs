@@ -87,7 +87,7 @@ namespace CourseWork
                         cmd.ExecuteNonQuery();
                         if(walletName == Form1.CurrentWalletName)
                         {
-                            Form1.CurrentWalletDeleted = true;
+                             Form1.CurrentWalletDeleted = true;
                         }
                     }
                 }

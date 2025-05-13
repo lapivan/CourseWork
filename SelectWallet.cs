@@ -100,7 +100,7 @@ namespace CourseWork
                 }
             }
             
-            Form1.CurrentWalletValue=tmpValue;
+            Form1.CurrentWalletValue =tmpValue;
             setTable();
         }
 
