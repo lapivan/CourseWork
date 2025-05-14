@@ -14,6 +14,7 @@ using System.Net;
 using Guna.Charts.WinForms;
 using Newtonsoft.Json.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
+using System.Xml;
 
 namespace CourseWork
 {
@@ -47,6 +48,10 @@ namespace CourseWork
         private static bool _currentWalletDeleted = false;
 
         private string _password;
+
+        private string[] tableNames = { "AddMoney", "Dreams", "Pass", "Treats", "Wallets" };
+        const string xmlFilePath = "DatabaseExport.xml";
+
         public Form1()
         {
             InitializeComponent();
@@ -54,105 +59,7 @@ namespace CourseWork
             connectCourseDB = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseWorkDB"].ConnectionString);
             connectCourseDB.Open();
             checkPassword();
-            if (!string.IsNullOrEmpty(_password))
-            {
-                bool passwordCorrect = false;
-                int attempts = 0;
-                const int maxAttempts = 3;
-
-                while (!passwordCorrect && attempts < maxAttempts)
-                {
-                    using (var passwordForm = new Form())
-                    {
-                        passwordForm.Text = "Требуется авторизация";
-                        passwordForm.FormBorderStyle = FormBorderStyle.FixedDialog;
-                        passwordForm.StartPosition = FormStartPosition.CenterScreen;
-                        passwordForm.MaximizeBox = false;
-                        passwordForm.MinimizeBox = false;
-                        passwordForm.Size = new Size(350, 200);
-                        passwordForm.BackColor = Color.FromArgb(230, 240, 255);
-                        passwordForm.Font = new Font("Segoe UI", 10);
-
-                        passwordForm.FormClosing += (s, e) =>
-                        {
-                            if (!passwordCorrect && passwordForm.DialogResult != DialogResult.OK)
-                            {
-                                Application.Exit();
-                            }
-                        };
-
-                        var label = new Label
-                        {
-                            Text = "Введите пароль для доступа:",
-                            Location = new Point(20, 20),
-                            AutoSize = true,
-                            ForeColor = Color.FromArgb(50, 50, 50)
-                        };
-
-                        var textBox = new TextBox
-                        {
-                            PasswordChar = '•',
-                            Location = new Point(20, 50),
-                            Size = new Size(290, 25),
-                            BorderStyle = BorderStyle.FixedSingle,
-                            BackColor = Color.White
-                        };
-
-                        var button = new Button
-                        {
-                            Text = "Подтвердить",
-                            Location = new Point(120, 100),
-                            Size = new Size(100, 35),
-                            BackColor = Color.FromArgb(0, 120, 215),
-                            ForeColor = Color.White,
-                            FlatStyle = FlatStyle.Flat,
-                            Cursor = Cursors.Hand
-                        };
-                        button.FlatAppearance.BorderSize = 0;
-                        button.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 100, 200);
-                        button.Click += (sender, e) =>
-                        {
-                            if (textBox.Text == _password)
-                            {
-                                passwordCorrect = true;
-                                passwordForm.DialogResult = DialogResult.OK;
-                            }
-                            else
-                            {
-                                attempts++;
-                                if (attempts >= maxAttempts)
-                                {
-                                    MessageBox.Show("Превышено максимальное количество попыток. Приложение будет закрыто.",
-                                                  "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                    passwordForm.DialogResult = DialogResult.Cancel;
-                                }
-                                else
-                                {
-                                    MessageBox.Show($"Неверный пароль! Осталось попыток: {maxAttempts - attempts}",
-                                                   "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                                    textBox.Text = "";
-                                    textBox.Focus();
-                                }
-                            }
-                        };
-
-                        passwordForm.Controls.Add(label);
-                        passwordForm.Controls.Add(textBox);
-                        passwordForm.Controls.Add(button);
-                        passwordForm.AcceptButton = button;
-                        if (passwordForm.ShowDialog() != DialogResult.OK)
-                        {
-                            Application.Exit();
-                            return;
-                        }
-                    }
-                }
-
-                if (!passwordCorrect)
-                {
-                    Application.Exit();
-                }
-            }
+            passwordBar();
         }
         ~Form1()
         {
@@ -508,8 +415,6 @@ namespace CourseWork
                     {
                         onBeginValue /= 1;
                     }
-                    //textBoxCurrentBalance.Text = Convert.ToString(onBeginValue);
-                    //textBoxCurrentMoney2.Text = Convert.ToString(onBeginValue);
                     textBoxCurrentBalance.Text = onBeginValue.ToString("N2");
                     textBoxCurrentMoney2.Text = onBeginValue.ToString("N2");
                 }
@@ -671,7 +576,6 @@ namespace CourseWork
                     {
                         onBeginValue /= 1;
                     }
-                    //maskedTextBoxAllMoney.Text = Convert.ToString(onBeginValue);
                     maskedTextBoxAllMoney.Text = onBeginValue.ToString("N2");
                 }
                 else
@@ -737,7 +641,7 @@ namespace CourseWork
                     }
                 }
             }
-            UpdateChart(gunaChart1, data, "Статистика расходов по категориям");//gunaChartPl,
+            UpdateChart(gunaChart1, data, "Статистика расходов по категориям");
         }
         private void createGraphic_SUMPL()
         {
@@ -1212,6 +1116,200 @@ namespace CourseWork
             using (SqlCommand rm = new SqlCommand("TRUNCATE TABLE [Pass]", connectCourseDB))
             {
                 rm.ExecuteNonQuery();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            XmlDocument xmlDoc = new XmlDocument();
+            XmlElement root = xmlDoc.CreateElement("DatabaseData");
+            xmlDoc.AppendChild(root);
+            foreach (string tableName in tableNames)
+            {
+                string query = $"SELECT * FROM {tableName} FOR XML AUTO, ROOT('{tableName}')";
+                using (SqlCommand cmd = new SqlCommand(query, connectCourseDB))
+                {
+                    string tableXml = (string)cmd.ExecuteScalar();
+                    XmlDocumentFragment fragment = xmlDoc.CreateDocumentFragment();
+                    fragment.InnerXml = tableXml;
+                    root.AppendChild(fragment);
+                }
+            }
+            xmlDoc.Save(xmlFilePath);
+            MessageBox.Show($"Копия успешно создана", "Выполнено",
+                   MessageBoxButtons.OK);        
+        }
+        private void passwordBar()
+        {
+            if (!string.IsNullOrEmpty(_password))
+            {
+                bool passwordCorrect = false;
+                int attempts = 0;
+                const int maxAttempts = 3;
+
+                while (!passwordCorrect && attempts < maxAttempts)
+                {
+                    using (var passwordForm = new Form())
+                    {
+                        passwordForm.Text = "Требуется авторизация";
+                        passwordForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+                        passwordForm.StartPosition = FormStartPosition.CenterScreen;
+                        passwordForm.MaximizeBox = false;
+                        passwordForm.MinimizeBox = false;
+                        passwordForm.Size = new Size(350, 200);
+                        passwordForm.BackColor = Color.FromArgb(230, 240, 255);
+                        passwordForm.Font = new Font("Segoe UI", 10);
+
+                        passwordForm.FormClosing += (s, e) =>
+                        {
+                            if (!passwordCorrect && passwordForm.DialogResult != DialogResult.OK)
+                            {
+                                Application.Exit();
+                            }
+                        };
+
+                        var label = new Label
+                        {
+                            Text = "Введите пароль для доступа:",
+                            Location = new Point(20, 20),
+                            AutoSize = true,
+                            ForeColor = Color.FromArgb(50, 50, 50)
+                        };
+
+                        var textBox = new TextBox
+                        {
+                            PasswordChar = '•',
+                            Location = new Point(20, 50),
+                            Size = new Size(290, 25),
+                            BorderStyle = BorderStyle.FixedSingle,
+                            BackColor = Color.White
+                        };
+
+                        var button = new Button
+                        {
+                            Text = "Подтвердить",
+                            Location = new Point(120, 100),
+                            Size = new Size(100, 35),
+                            BackColor = Color.FromArgb(0, 120, 215),
+                            ForeColor = Color.White,
+                            FlatStyle = FlatStyle.Flat,
+                            Cursor = Cursors.Hand
+                        };
+                        button.FlatAppearance.BorderSize = 0;
+                        button.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 100, 200);
+                        button.Click += (sender, e) =>
+                        {
+                            if (textBox.Text == _password)
+                            {
+                                passwordCorrect = true;
+                                passwordForm.DialogResult = DialogResult.OK;
+                            }
+                            else
+                            {
+                                attempts++;
+                                if (attempts >= maxAttempts)
+                                {
+                                    MessageBox.Show("Превышено максимальное количество попыток. Приложение будет закрыто.",
+                                                  "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    passwordForm.DialogResult = DialogResult.Cancel;
+                                }
+                                else
+                                {
+                                    MessageBox.Show($"Неверный пароль! Осталось попыток: {maxAttempts - attempts}",
+                                                   "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    textBox.Text = "";
+                                    textBox.Focus();
+                                }
+                            }
+                        };
+
+                        passwordForm.Controls.Add(label);
+                        passwordForm.Controls.Add(textBox);
+                        passwordForm.Controls.Add(button);
+                        passwordForm.AcceptButton = button;
+                        if (passwordForm.ShowDialog() != DialogResult.OK)
+                        {
+                            Application.Exit();
+                            return;
+                        }
+                    }
+                }
+
+                if (!passwordCorrect)
+                {
+                    Application.Exit();
+                }
+            }
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (SqlTransaction transaction = connectCourseDB.BeginTransaction())
+            {
+                try
+                {
+                    XmlDocument xmlDoc = new XmlDocument();
+                    xmlDoc.Load(xmlFilePath);
+
+                    foreach (XmlNode tableNode in xmlDoc.DocumentElement.ChildNodes)
+                    {
+                        string tableName = tableNode.Name;
+                        using (SqlCommand clearCmd = new SqlCommand($"DELETE FROM {tableName}", connectCourseDB, transaction))
+                        {
+                            clearCmd.ExecuteNonQuery();
+                        }
+                        bool hasIdentityColumn = false;
+                        using (SqlCommand checkIdentityCmd = new SqlCommand(
+                            $"SELECT OBJECTPROPERTY(OBJECT_ID('{tableName}'), 'TableHasIdentity')",
+                            connectCourseDB, transaction))
+                        {
+                            hasIdentityColumn = (int)checkIdentityCmd.ExecuteScalar() == 1;
+                        }
+                        if (hasIdentityColumn)
+                        {
+                            new SqlCommand($"SET IDENTITY_INSERT {tableName} ON", connectCourseDB, transaction)
+                                .ExecuteNonQuery();
+                        }
+                        foreach (XmlNode rowNode in tableNode.ChildNodes)
+                        {
+                            var parameters = new List<SqlParameter>();
+                            var columnNames = new List<string>();
+                            var paramNames = new List<string>();
+
+                            foreach (XmlAttribute attr in rowNode.Attributes)
+                            {
+                                columnNames.Add(attr.Name);
+                                paramNames.Add($"@{attr.Name}");
+
+                                parameters.Add(new SqlParameter(
+                                    $"@{attr.Name}",
+                                    attr.Value == null ? DBNull.Value : (object)attr.Value
+                                ));
+                            }
+
+                            string insertQuery = $@"
+                    INSERT INTO {tableName} 
+                    ({string.Join(", ", columnNames)}) 
+                    VALUES ({string.Join(", ", paramNames)})";
+
+                            using (SqlCommand insertCmd = new SqlCommand(insertQuery, connectCourseDB, transaction))
+                            {
+                                insertCmd.Parameters.AddRange(parameters.ToArray());
+                                insertCmd.ExecuteNonQuery();
+                            }
+                        }
+                        if (hasIdentityColumn)
+                        {
+                            new SqlCommand($"SET IDENTITY_INSERT {tableName} OFF", connectCourseDB, transaction)
+                                .ExecuteNonQuery();
+                        }
+                    }
+                    transaction.Commit();
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    throw;
+                }
             }
         }
     }

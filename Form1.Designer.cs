@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.Charts.WinForms.ChartFont chartFont209 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont210 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont211 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont212 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid79 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick79 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont213 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid80 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick80 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont214 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid81 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel27 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont215 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick81 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont216 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont217 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont218 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont219 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont220 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid82 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick82 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont221 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid83 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick83 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont222 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid84 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel28 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont223 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick84 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont224 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont97 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont98 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont99 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont100 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid37 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick37 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont101 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid38 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick38 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont102 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid39 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel13 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont103 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick39 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont104 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont105 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont106 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont107 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont108 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid40 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick40 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont109 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid41 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick41 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont110 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid42 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel14 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont111 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick42 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont112 = new Guna.Charts.WinForms.ChartFont();
             this.счетаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.категорииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.операцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -163,12 +163,18 @@
             this.labelAdd = new System.Windows.Forms.Label();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panelUpdate.SuspendLayout();
@@ -196,8 +202,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDreams)).BeginInit();
             this.panelAdd.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // счетаToolStripMenuItem
@@ -1069,37 +1077,37 @@
             // gunaChartpl
             // 
             this.gunaChartpl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            chartFont209.FontName = "Arial";
-            this.gunaChartpl.Legend.LabelFont = chartFont209;
+            chartFont97.FontName = "Arial";
+            this.gunaChartpl.Legend.LabelFont = chartFont97;
             this.gunaChartpl.Location = new System.Drawing.Point(551, 88);
             this.gunaChartpl.Name = "gunaChartpl";
             this.gunaChartpl.Size = new System.Drawing.Size(227, 260);
             this.gunaChartpl.TabIndex = 9;
-            chartFont210.FontName = "Arial";
-            chartFont210.Size = 12;
-            chartFont210.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChartpl.Title.Font = chartFont210;
-            chartFont211.FontName = "Arial";
-            this.gunaChartpl.Tooltips.BodyFont = chartFont211;
-            chartFont212.FontName = "Arial";
-            chartFont212.Size = 9;
-            chartFont212.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChartpl.Tooltips.TitleFont = chartFont212;
-            this.gunaChartpl.XAxes.GridLines = grid79;
-            chartFont213.FontName = "Arial";
-            tick79.Font = chartFont213;
-            this.gunaChartpl.XAxes.Ticks = tick79;
-            this.gunaChartpl.YAxes.GridLines = grid80;
-            chartFont214.FontName = "Arial";
-            tick80.Font = chartFont214;
-            this.gunaChartpl.YAxes.Ticks = tick80;
-            this.gunaChartpl.ZAxes.GridLines = grid81;
-            chartFont215.FontName = "Arial";
-            pointLabel27.Font = chartFont215;
-            this.gunaChartpl.ZAxes.PointLabels = pointLabel27;
-            chartFont216.FontName = "Arial";
-            tick81.Font = chartFont216;
-            this.gunaChartpl.ZAxes.Ticks = tick81;
+            chartFont98.FontName = "Arial";
+            chartFont98.Size = 12;
+            chartFont98.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChartpl.Title.Font = chartFont98;
+            chartFont99.FontName = "Arial";
+            this.gunaChartpl.Tooltips.BodyFont = chartFont99;
+            chartFont100.FontName = "Arial";
+            chartFont100.Size = 9;
+            chartFont100.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChartpl.Tooltips.TitleFont = chartFont100;
+            this.gunaChartpl.XAxes.GridLines = grid37;
+            chartFont101.FontName = "Arial";
+            tick37.Font = chartFont101;
+            this.gunaChartpl.XAxes.Ticks = tick37;
+            this.gunaChartpl.YAxes.GridLines = grid38;
+            chartFont102.FontName = "Arial";
+            tick38.Font = chartFont102;
+            this.gunaChartpl.YAxes.Ticks = tick38;
+            this.gunaChartpl.ZAxes.GridLines = grid39;
+            chartFont103.FontName = "Arial";
+            pointLabel13.Font = chartFont103;
+            this.gunaChartpl.ZAxes.PointLabels = pointLabel13;
+            chartFont104.FontName = "Arial";
+            tick39.Font = chartFont104;
+            this.gunaChartpl.ZAxes.Ticks = tick39;
             // 
             // DateDiapason
             // 
@@ -1136,37 +1144,37 @@
             // gunaChart1
             // 
             this.gunaChart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            chartFont217.FontName = "Arial";
-            this.gunaChart1.Legend.LabelFont = chartFont217;
+            chartFont105.FontName = "Arial";
+            this.gunaChart1.Legend.LabelFont = chartFont105;
             this.gunaChart1.Location = new System.Drawing.Point(28, 88);
             this.gunaChart1.Name = "gunaChart1";
             this.gunaChart1.Size = new System.Drawing.Size(388, 260);
             this.gunaChart1.TabIndex = 0;
-            chartFont218.FontName = "Arial";
-            chartFont218.Size = 12;
-            chartFont218.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Title.Font = chartFont218;
-            chartFont219.FontName = "Arial";
-            this.gunaChart1.Tooltips.BodyFont = chartFont219;
-            chartFont220.FontName = "Arial";
-            chartFont220.Size = 9;
-            chartFont220.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Tooltips.TitleFont = chartFont220;
-            this.gunaChart1.XAxes.GridLines = grid82;
-            chartFont221.FontName = "Arial";
-            tick82.Font = chartFont221;
-            this.gunaChart1.XAxes.Ticks = tick82;
-            this.gunaChart1.YAxes.GridLines = grid83;
-            chartFont222.FontName = "Arial";
-            tick83.Font = chartFont222;
-            this.gunaChart1.YAxes.Ticks = tick83;
-            this.gunaChart1.ZAxes.GridLines = grid84;
-            chartFont223.FontName = "Arial";
-            pointLabel28.Font = chartFont223;
-            this.gunaChart1.ZAxes.PointLabels = pointLabel28;
-            chartFont224.FontName = "Arial";
-            tick84.Font = chartFont224;
-            this.gunaChart1.ZAxes.Ticks = tick84;
+            chartFont106.FontName = "Arial";
+            chartFont106.Size = 12;
+            chartFont106.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Title.Font = chartFont106;
+            chartFont107.FontName = "Arial";
+            this.gunaChart1.Tooltips.BodyFont = chartFont107;
+            chartFont108.FontName = "Arial";
+            chartFont108.Size = 9;
+            chartFont108.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Tooltips.TitleFont = chartFont108;
+            this.gunaChart1.XAxes.GridLines = grid40;
+            chartFont109.FontName = "Arial";
+            tick40.Font = chartFont109;
+            this.gunaChart1.XAxes.Ticks = tick40;
+            this.gunaChart1.YAxes.GridLines = grid41;
+            chartFont110.FontName = "Arial";
+            tick41.Font = chartFont110;
+            this.gunaChart1.YAxes.Ticks = tick41;
+            this.gunaChart1.ZAxes.GridLines = grid42;
+            chartFont111.FontName = "Arial";
+            pointLabel14.Font = chartFont111;
+            this.gunaChart1.ZAxes.PointLabels = pointLabel14;
+            chartFont112.FontName = "Arial";
+            tick42.Font = chartFont112;
+            this.gunaChart1.ZAxes.Ticks = tick42;
             // 
             // buttonYear
             // 
@@ -1433,6 +1441,8 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.tabPage3.Controls.Add(this.panel7);
+            this.tabPage3.Controls.Add(this.panel6);
             this.tabPage3.Controls.Add(this.panel5);
             this.tabPage3.Controls.Add(this.panel4);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
@@ -1442,45 +1452,44 @@
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Настройки";
             // 
-            // panel4
+            // panel6
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Location = new System.Drawing.Point(628, 123);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 54);
-            this.panel4.TabIndex = 0;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.panel6.Controls.Add(this.label4);
+            this.panel6.Controls.Add(this.button3);
+            this.panel6.Location = new System.Drawing.Point(628, 177);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(250, 54);
+            this.panel6.TabIndex = 2;
             // 
-            // button1
+            // label4
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
-            this.button1.BackgroundImage = global::CourseWork.Properties.Resources.add_50;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(198, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(52, 54);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.label4.Location = new System.Drawing.Point(25, 19);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(161, 15);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Создать копию данных";
             // 
-            // label2
+            // button3
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
-            this.label2.Location = new System.Drawing.Point(16, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Установка/смена пароля";
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            this.button3.BackgroundImage = global::CourseWork.Properties.Resources.upd;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(198, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(52, 54);
+            this.button3.TabIndex = 1;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.button2);
-            this.panel5.Location = new System.Drawing.Point(628, 206);
+            this.panel5.Location = new System.Drawing.Point(628, 340);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 54);
             this.panel5.TabIndex = 1;
@@ -1506,6 +1515,71 @@
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Location = new System.Drawing.Point(628, 94);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(250, 54);
+            this.panel4.TabIndex = 0;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.label2.Location = new System.Drawing.Point(16, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(175, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Установка/смена пароля";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            this.button1.BackgroundImage = global::CourseWork.Properties.Resources.add_50;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(198, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(52, 54);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.panel7.Controls.Add(this.label5);
+            this.panel7.Controls.Add(this.button4);
+            this.panel7.Location = new System.Drawing.Point(628, 256);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(250, 54);
+            this.panel7.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            this.label5.Location = new System.Drawing.Point(25, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(156, 15);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Восстановить данные";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(255)))));
+            this.button4.BackgroundImage = global::CourseWork.Properties.Resources.selectinform;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(198, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(52, 54);
+            this.button4.TabIndex = 1;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
@@ -1569,10 +1643,14 @@
             this.panelAdd.ResumeLayout(false);
             this.panelAdd.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1689,6 +1767,12 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
     }
 }
 
